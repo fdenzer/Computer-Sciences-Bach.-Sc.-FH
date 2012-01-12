@@ -6,4 +6,4 @@ Typical languages used are C, C#, PHP and Java.
 ------------
 
 
-Bitte nur studienrelevante fuer das Fach Informatik ablegen.
+Bitte nur studienrelevantes zum das Fach Informatik ablegen.

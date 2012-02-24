@@ -8,8 +8,7 @@ Typical languages used are C, C#, PHP and Java.
 
 ---------------
 
-German / Deutsch
--------------------------
+### German / Deutsch
 
 _in short_ / _gekürzt_
 

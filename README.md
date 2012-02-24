@@ -5,7 +5,7 @@ to courses in computer sciences
 
 Typical languages used are C, C#, PHP and Java.
 
-------------
+---------------
 
 ## German / Deutsch ##
 

@@ -1,5 +1,7 @@
 # Controlling
 
+for dummies
+
 ## Literatur
 
     1. Verfasser	Varnholt, Norbert T.

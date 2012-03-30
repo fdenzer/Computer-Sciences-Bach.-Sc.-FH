@@ -150,4 +150,15 @@ Platine in Notebook verbauen:
 
     Neutraler Aufwand
     betriebstypisch, periodisch, nicht außergewöhnlich
+
+-----------------------
+
+regressiv fallend
+--> fallend
+
+regressiv steigend
+--> steigt zwar, flacht aber ab
+
+progressiv steigend
+--> steigt (evtl. immer schneller)
     

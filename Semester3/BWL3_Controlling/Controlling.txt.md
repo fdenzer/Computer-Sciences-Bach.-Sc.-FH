@@ -145,3 +145,9 @@ Platine in Notebook verbauen:
 * Abschreibungen
 
 *Fi*nanz*bu*chhaltung: Eintrag bei Aufwand + Kosten
+
+### Folie 49
+
+    Neutraler Aufwand
+    betriebstypisch, periodisch, nicht außergewöhnlich
+    

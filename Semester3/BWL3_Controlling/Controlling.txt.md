@@ -24,7 +24,7 @@ for dummies
 
 ## Begriffe
 
-	Wirtschaftsprüfung			=> Prüfung des Jahresabschlusses
+    Wirtschaftsprüfung			=> Prüfung des Jahresabschlusses
     Betriebs-/Außenprüfung		=> ?
     Revision 					=> bleibt in der Firma
     Kreditwürdigkeitsprüfung	=> Banken
@@ -53,14 +53,28 @@ Sind 1 und 2 vertauscht handelt es sich um Normalkostenrechnung.
 
 * Kostenstellenrechnung
 
+	* Prozesskostenrechnung
+
+	* Innen
+
 * Produktkosten
+
+* Controlling (s.o. Tabelle, Einträge 1-4)
+
+	* Planung
+
+	* Istkosten
+
+	* Abweichung
+
+	* Korrektur
 
 
 ## Weitere Begriffe
 
 Erfolgsrechnung, engl. profitabilty analysis
 
-## Struktur des Rechnugswesens
+## Struktur des Rechnungswesens
 
 * Unternehmenscontrolling
 
@@ -83,3 +97,51 @@ Erfolgsrechnung, engl. profitabilty analysis
 		* CO OM - __Co__ntrolling __o__verhead __m__anagement
 
 * Fundament: Investition und Finanzierung
+
+* 'Controlling/**Kostenartenplan**/Stammdaten/KO Anlegen' ist das Gegenstück zum *Kontenrahmen*
+
+Vier Ebenen, schräg: Zeitachse verläuft von oben links nach unten rechts,
+d.h. Auszahlung überschneidet sich gering mit Kosten.
+
+<table>
+  <tr>
+    <td>Auszahlung</td>
+    <td>Einzahlung</td>
+  </tr>
+  <tr>
+    <td><em>Beschaffungswertzugang</em>; Ausgabe; Verbindlichkeit</td>
+    <td>Einnahme; Forderung</td>
+  </tr>
+  <tr>
+    <td>Aufwand</td>
+    <td>Ertrag</td>
+  </tr>
+  <tr>
+    <td>Kosten</td>
+    <td>Leistung</td>
+  </tr>
+</table>
+
+### Beispiel
+
+Platine in Notebook verbauen:
+
+1. Bestandsminderung
+
+2. Aufwandszahlung
+
+3. Kosten, denn diese sind definiert als
+
+	* betriebstypisch
+
+	* periodengerecht
+
+	* nicht außergewöhnlich/-ordentlich
+
+==> Platine bildet Schnittmenge mit Aufwand und Kosten
+
+### Anderskosten
+
+* Abschreibungen
+
+*Fi*nanz*bu*chhaltung: Eintrag bei Aufwand + Kosten

@@ -106,3 +106,42 @@ switch status
 
 physisch nicht, aber praktisch getrennte LANs
 
+# Satellitennetzwerk
+
+* nicht CSMA/CD wegen zu langer "minimaler" Paketlänge um Kollisionen vorzubeugen
+
+* kein Taktsignal für slotted Aloah. Außerdem ist der Nachbar nicht hörbar.
+
+* --> pure aloah, nur max. 18% Durchsatz
+
+# Token Passing Protokoll
+
+Token Ring
+
+* Übertragung
+
+	* Sendet in eine Richtung. Empfängt man die eigene Nachricht ist sie einmal durchgelaufen und wird nichtmehr weitergeleitet.
+
+	* Token läuft rundum. Die Station, welche das Token hat, darf senden.
+
+		* besteht aus Startdelimiter, Zugriffssteuerung (Access Delimiter) und Enddelimiter
+
+* Angeschaltete Maschinen liefern 1 Bit Verzögerung
+
+* minimale Länge des Rings ist 24 Bit
+
+	* Monitorstation wird ausgewürfelt
+
+* Senden
+
+	* SD wird negiert, neue AC und FC erzeugt und Nachricht folgt
+
+	* Daten theoretisch unbegrenzt, faktisch max. 9KB durch 10ms Timer
+
+	* Endet mit Frame Status
+
+		* falls Zielhost nicht vorhanden wird dies bemerkt
+
+		* Zielhost kippt vorhandenes erstes Bit
+
+			* bei erfolgreichem lesen wird auch das zweite Bit gekippt

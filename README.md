@@ -1,7 +1,9 @@
 Latest Content Additions
 ------------------------
 
-* Controlling, Prof. V.
+* NWS1, Prof. M.
+
+* BWL3 `Controlling`, Prof. V.
 
 
 Description

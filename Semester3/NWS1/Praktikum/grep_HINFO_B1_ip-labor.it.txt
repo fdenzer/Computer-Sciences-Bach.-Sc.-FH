@@ -1,0 +1,134 @@
+apc.IP-Labor.IT.Fh-Worms.DE. 86400 IN	A	193.43.29.247
+apc.IP-Labor.IT.Fh-Worms.DE. 86400 IN	HINFO	"APC" "RackPDU"
+console-server.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.246
+console-server.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cylades-ACS-32 Console-Server" "Linux-2.4.17"
+--
+domino-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.144
+domino-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Domino" "HP ProLiant DL380 G5 Linux-Etch"
+domino-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.78
+domino-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Domino" "HP ProLiant DL380 G5 Linux-Etch"
+domino-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.205
+domino-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Domino" "HP ProLiant DL380 G5 Linux-Etch iLo"
+--
+go-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.142
+go-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"MHHost Go" "HP ProLiant DL380 G5 Linux-Etch"
+go-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.74
+go-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"MHHost Go" "HP ProLiant DL380 G5 Linux-Etch"
+go-ilo.IP-Labor.IT.Fh-Worms.DE.	86400 IN A	193.43.29.204
+go-ilo.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO	"MHHost Go" "HP ProLiant DL380 G5 Linux-Etch iLo"
+ip-labor-firewall-mgnt.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.207
+ip-labor-firewall-mgnt.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-ASA IP-Labor-Firewall" "ASA5585-SSP-10, 4096 MB RAM, CPU Xeon 5500 series 2000 MHz, 1 CPUs, 4 cores"
+--
+latinus-bnx0.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.147
+latinus-bnx0.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Latinus" "HP ProLiant DL380 G5 OpenBSD-4.4"
+latinus-bnx1.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.66
+latinus-bnx1.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Latinus" "HP ProLiant DL380 G5 OpenBSD-4.4"
+latinus-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.203
+latinus-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Latinus" "HP ProLiant DL380 G5 OpenBSD-4.4 iLo"
+latinus-ix0.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.122
+latinus-ix0.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Latinus" "HP ProLiant DL380 G5 OpenBSD-4.4"
+--
+lavinia-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.68
+lavinia-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Lavinia" "HP ProLiant DL380 G5 Linux-Etch"
+lavinia-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.121
+lavinia-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Lavinia" "HP ProLiant DL380 G5 Linux-Etch"
+lavinia-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.202
+lavinia-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Lavinia" "HP ProLiant DL380 G5 Linux-Etch iLo"
+--
+mikado-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.140
+mikado-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Mikado" "HP ProLiant DL380 G5 Linux-Etch"
+mikado-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.118
+mikado-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Mikado" "HP ProLiant DL380 G5 Linux-Etch"
+mikado-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.200
+mikado-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Mikado" "HP ProLiant DL380 G5 Linux-Etch iLo"
+--
+moerin-f0-0-12.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.251
+moerin-f0-0-12.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Moerin" "WS-C2621 2 F, 4 Serial"
+moerin-f0-0-254.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.98
+moerin-f0-0-254.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Moerin" "WS-C2621 2 F, 4 Serial"
+moerin-f0-0-255.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.65
+moerin-f0-0-255.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Moerin" "WS-C2621 2 F, 4 Serial"
+moerin-f0-1-256.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.101
+moerin-f0-1-256.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Moerin" "WS-C2621 2 F, 4 Serial"
+moerin-s0-1.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.89
+moerin-s0-1.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Moerin" "WS-C2621 2 F, 4 Serial"
+moerin-s0-2.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.113
+moerin-s0-2.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Moerin" "WS-C2621 2 F, 4 Serial"
+moerin-s1-0.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.81
+moerin-s1-0.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Moerin" "WS-C2621 2 F, 4 Serial"
+ns.IP-Labor.IT.Fh-Worms.DE. 86400 IN	A	193.43.29.141
+ns.IP-Labor.IT.Fh-Worms.DE. 86400 IN	HINFO	"MHHost Lavinia" "HP ProLiant DL380 G5 Linux-Etch"
+--
+Ortwin-Te0-8.IP-Labor.IT.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f4e0::e2
+Ortwin-Te0-8.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-ASA IP-Labor-Firewall-Ortwin" "ASA5585-SSP-10, 6144 MB RAM, CPU Xeon 5500 series 2000 MHz 1 CPUs, 4 cores"
+ortwin-Te0-9-17.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.125
+ortwin-Te0-9-17.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-ASA IP-Labor-Firewall-Ortwin" "ASA5585-SSP-10, 6144 MB RAM, CPU Xeon 5500 series 2000 MHz 1 CPUs, 4 cores"
+palantir-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.206
+palantir-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Palantir" "HP ProLiant DL380 G5 Linux-Etch iLo"
+--
+picolo-f0-0-12.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.253
+picolo-f0-0-12.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Picolo" "WS-C2621 2 F, 2 Serial"
+picolo-f0-0-251.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.117
+picolo-f0-0-251.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router SW-IP-Labor" "WS-C6506-E 4 TenG, 50G, 0F"
+picolo-f0-0-252.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.77
+picolo-f0-0-252.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Picolo" "WS-C2621 2 F, 2 Serial"
+picolo-f0-0-254.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.97
+picolo-f0-0-254.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Picolo" "WS-C2621 2 F, 2 Serial"
+picolo-f0-1-253.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.93
+picolo-f0-1-253.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Picolo" "WS-C2621 2 F, 2 Serial"
+picolo-s0-1.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.85
+picolo-s0-1.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Picolo" "WS-C2621 2 F, 2 Serial"
+praktikum-switch.IP-Labor.IT.Fh-Worms.DE. 86400	IN A 193.43.29.245
+praktikum-switch.IP-Labor.IT.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch Praktikum-Switch" "WS-C3750G-24TS 28G"
+--
+rheinbach-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.14
+rheinbach-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheinbach" "WS-C2620 1 F, 2 Serial"
+rheinbach-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.114
+rheinbach-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheinbach" "WS-C2620 1 F, 2 Serial"
+--
+rheinfall-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.4
+rheinfall-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheinfall" "WS-C2620 1 F, 2 Serial"
+rheinfall-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.86
+rheinfall-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheinfall" "WS-C2620 1 F, 2 Serial"
+--
+rheinfels-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.25
+rheinfels-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheinfels" "Cisco_Software_Rel._12.3(25)"
+--
+rheingold-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.9
+rheingold-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheingold" "WS-C2620 1 F, 2 Serial"
+rheingold-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.90
+rheingold-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheingold" "WS-C2620 1 F, 2 Serial"
+--
+rheinland-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.19
+rheinland-f0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheinland" "WS-C2621 2 F, 2 Serial"
+rheinland-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN A 193.43.29.82
+rheinland-s0-0.IP-Labor.IT.Fh-Worms.DE.	86400 IN HINFO "Cisco-Router Rheinland" "WS-C2621 2 F, 2 Serial"
+--
+schach-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.146
+schach-eth2.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Schach" "HP ProLiant DL380 G5 Linux-Etch"
+schach-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.69
+schach-eth3.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Schach" "HP ProLiant DL380 G5 Linux-Etch"
+schach-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.201
+schach-ilo.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "MHHost Schach" "HP ProLiant DL380 G5 Linux-Etch iLo"
+--
+sw-ip-labor-vlan-13.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.129
+sw-ip-labor-vlan-13.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router SW-IP-Labor" "WS-C6506-E 4 TenG, 50G, 0F"
+sw-ip-labor-vlan-17.IP-Labor.IT.Fh-Worms.DE. 86400 IN A	193.43.29.126
+sw-ip-labor-vlan-17.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router SW-IP-Labor" "WS-C6506-E 4 TenG, 50G, 0F"
+sw-ip-labor-vlan-255.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.70
+sw-ip-labor-vlan-255.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router SW-IP-Labor" "WS-C6506-E 4 TenG, 50G, 0F"
+SW-IP-Labor-Vlan11.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.1
+SW-IP-Labor-Vlan11.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router SW-IP-Labor" "WS-C6506-E 4 TenG, 50G, 0F"
+SW-IP-Labor-Vlan12.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.254
+SW-IP-Labor-Vlan12.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router SW-IP-Labor" "WS-C6506-E 4 TenG, 50G, 0F"
+SW-IP-Labor-Vlan15.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.193
+SW-IP-Labor-Vlan15.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router SW-IP-Labor" "WS-C6506-E 4 TenG, 50G, 0F"
+--
+triangel-vlan-12.IP-Labor.IT.Fh-Worms.DE. 86400	IN A 193.43.29.250
+triangel-vlan-12.IP-Labor.IT.Fh-Worms.DE. 86400	IN HINFO "Cisco-Router Triangel" "WS-C2621 2 F, 3 Serial, 4 ISDN"
+triangel-vlan-253.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.94
+triangel-vlan-253.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Triangel" "WS-C2621 2 F, 3 Serial, 4 ISDN"
+triangel-vlan-256.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.102
+triangel-vlan-256.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Triangel" "WS-C2621 2 F, 3 Serial, 4 ISDN"
+triangel-vlan-257.IP-Labor.IT.Fh-Worms.DE. 86400 IN A 193.43.29.73
+triangel-vlan-257.IP-Labor.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Triangel" "WS-C2621 2 F, 3 Serial, 4 ISDN"

@@ -1,0 +1,44 @@
+eps.IT.Fh-Worms.DE.	86400	IN	A	193.30.18.136
+epson.IT.Fh-Worms.DE.	86400	IN	HINFO	"DLP Based Projector" "EB-Z8000WU"
+--
+IP-Labor.IT.Fh-Worms.DE. 86400	IN	NS	ns-sec.Fh-Worms.DE.
+IP-Phone-Info-KL-132.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco IP Phone 7960" "SEP00078551F5A6"
+--
+mac-mandau.IT.Fh-Worms.DE. 86400 IN	A	143.93.185.85
+massar.IT.Fh-Worms.DE.	86400	IN	HINFO	"Cisco-Router massar" "CS2821 2G"
+--
+mobile.IT.Fh-Worms.DE.	86400	IN	NS	n240-s0.rn-labor.it.fh-worms.de.
+mobotix-n240a.IT.Fh-Worms.DE. 86400 IN	HINFO	"MOBOTIX D12" "mx10-2-165-201"
+mobotix-n240a.IT.Fh-Worms.DE. 86400 IN	A	193.30.18.9
+mobotix-n241.IT.Fh-Worms.DE. 86400 IN	HINFO	"MOBOTIX D12" "mx10-2-165-201"
+--
+nb-swinke.IT.Fh-Worms.DE. 86400	IN	A	143.93.185.81
+ns-sec.IT.Fh-Worms.DE.	86400	IN	HINFO	"HP ProLiant DL380 G5" "Linux-Lenny"
+--
+ns-sec-v6.IT.Fh-Worms.DE. 86400	IN	AAAA	2001:4c80:81:1200::2
+Ortwin-Ge0-0.IT.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA IP-Labor-Firewall-Ortwin" "ASA5585-SSP-10, 6144 MB RAM, CPU Xeon 5500 series 2000 MHz 1 CPUs, 4 cores"
+Ortwin-Ge0-0.IT.Fh-Worms.DE. 86400 IN	A	193.30.18.225
+ortwin-Ge0-0-v6.IT.Fh-Worms.DE.	86400 IN HINFO	"Cisco-ASA IP-Labor-Firewall-Ortwin" "ASA5585-SSP-10, 6144 MB RAM, CPU Xeon 5500 series 2000 MHz 1 CPUs, 4 cores"
+ortwin-Ge0-0-v6.IT.Fh-Worms.DE.	86400 IN AAAA	2001:4c80:81:12e0::e2
+ortwin-Te0-9-14.IT.Fh-Worms.DE.	86400 IN HINFO	"Cisco-ASA IP-Labor-Firewall-Ortwin" "ASA5585-SSP-10, 6144 MB RAM, CPU Xeon 5500 series 2000 MHz 1 CPUs, 4 cores"
+ortwin-Te0-9-14.IT.Fh-Worms.DE.	86400 IN A	193.30.18.1
+ortwin-Te0-9-14-v6.IT.Fh-Worms.DE. 86400 IN HINFO "Cisco-ASA IP-Labor-Firewall-Ortwin" "ASA5585-SSP-10, 6144 MB RAM, CPU Xeon 5500 series 2000 MHz 1 CPUs, 4 cores"
+ortwin-Te0-9-14-v6.IT.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:1200::1
+ortwin-tu-0.IT.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Router Ortwin" "CS7206 VXR NPE 1G"
+--
+ortwin-vxr.IT.Fh-Worms.DE. 86400 IN	CNAME	ortwin-vxr-ge0-0.IT.Fh-Worms.DE.
+ortwin-VXR-Ge0-0.IT.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Ortwin" "CS7206 VXR NPE 1G"
+--
+palantir-eth2.IT.Fh-Worms.DE. 86400 IN	CNAME	ns-sec.IT.Fh-Worms.DE.
+palantir-ilo.IT.Fh-Worms.DE. 86400 IN	HINFO	"HP ProLiant DL380 G5" "Linux-Lenny"
+--
+palantir-v6.IT.Fh-Worms.DE. 86400 IN	CNAME	ns-sec-v6.IT.Fh-Worms.DE.
+panasonic.IT.Fh-Worms.DE. 86400	IN	HINFO	"DLP Based Projector" "PT-DW5000EL"
+--
+Wave-KL.IT.Fh-Worms.DE.	86400	IN	CNAME	Wave-KL-134.IT.Fh-Worms.DE.
+Wave-KL-134.IT.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+--
+windau.IT.Fh-Worms.DE.	86400	IN	A	193.30.18.123
+wut-2.IT.Fh-Worms.DE.	86400	IN	HINFO	"Wiesemann & Theis" "Web-Thermograph 2x i#57607"
+wut-2.IT.Fh-Worms.DE.	86400	IN	A	193.30.18.12
+wut-8.IT.Fh-Worms.DE.	86400	IN	HINFO	"Wiesemann & Theis" "Web-Thermograph 8x i#57608"

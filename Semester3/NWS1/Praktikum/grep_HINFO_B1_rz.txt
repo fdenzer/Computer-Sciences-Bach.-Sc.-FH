@@ -1,0 +1,783 @@
+Balmung.RZ.Fh-Worms.DE.	86400	IN	CNAME	Balmung-Loopback0.RZ.Fh-Worms.DE.
+Balmung-Loopback0.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-L3-Switch Balmung-6500" "C6509-E 20TenG, 30G"
+--
+Balmung-Loopback0-v6.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f400::1
+Balmung-Loopback1.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-L3-Switch Balmung-6500" "C6509-E 20TenG, 30G"
+--
+Balmung-Loopback1-v6.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f400::a
+Balmung-Te4-16.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-L3-Switch Balmung-6500" "C6509-E 20TenG, 30G"
+--
+Balmung-Te4-16.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.225
+Balmung-Vlan-164.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-L3-Switch Balmung-6500" "C6509-E 20 TenG, 30G"
+Balmung-Vlan-164.RZ.Fh-Worms.DE. 86400 IN A	143.93.180.1
+Balmung-Vlan-2.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-L3-Switch Balmung" "C6509-E 20TenG, 30G"
+--
+Balmung-Vlan-2.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.81
+balmung-vlan-205.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch Balmung" "C6509-E 20TenG, 30G"
+balmung-vlan-205.RZ.Fh-Worms.DE. 86400 IN A	143.93.191.1
+balmung-vlan-650.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-L3-Switch Balmung" "C6509-E 20 TenG, 30G"
+balmung-vlan-650.RZ.Fh-Worms.DE. 86400 IN A	143.93.176.129
+Balmung-Vlan-7.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-L3-Switch Balmung-6500" "C6509-E 20TenG, 30G"
+--
+Balmung-Vlan-7.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.233
+Balmung-Vlan-8.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-L3-Switch Balmung-6500" "C6509-E 20TenG, 30G"
+--
+biblpc18.RZ.Fh-Worms.DE. 86400	IN	A	143.93.161.214
+Bosch-Kamera-10.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 10" "AEG-Foyer Eingang BIB|4,2|A8"
+Bosch-Kamera-10.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.10
+Bosch-Kamera-11.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 11" "AUG-Flur-5 BIB|4,0|A2"
+Bosch-Kamera-11.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.11
+Bosch-Kamera-12.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 12" "AUG-Flur-5 BIB SUED|4,0|A5"
+Bosch-Kamera-12.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.12
+Bosch-Kamera-13.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 13" "AUG-Flur-3-4 BIB|4,0|A9"
+Bosch-Kamera-13.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.13
+Bosch-Kamera-14.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 14" "AOG Flur 2|3,2|A4"
+Bosch-Kamera-14.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.14
+Bosch-Kamera-15.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 15" "AOG Foyer Digital Signage |3,2|A4"
+Bosch-Kamera-15.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.15
+Bosch-Kamera-16.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 16" "AOG  Flur TR2"
+Bosch-Kamera-16.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.16
+Bosch-Kamera-17.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 17" " kaputt N001|0.1|E20 Bosch Kamera Foyer EG"
+Bosch-Kamera-17.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.17
+Bosch-Kamera-18.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 18" "N146 Innenhof|0.1|E23 Bosch Kamera Hof"
+Bosch-Kamera-18.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.18
+Bosch-Kamera-19.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 19" "N142b zwischen N und L|0.1|E24 Bosch Kamera TRH"
+Bosch-Kamera-19.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.19
+Bosch-Kamera-20.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 20" "N001 Haupteingang Strasse|0.1|E18 Bosch Kamera Foyer EG"
+Bosch-Kamera-20.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.20
+Bosch-Kamera-24.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 24" "N120|6|E21 Bosch Kamera Hof"
+Bosch-Kamera-24.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.24
+Bosch-Kamera-25.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 25" "N026|i|abc Bosch Kamera Flur 2 Nottuer"
+Bosch-Kamera-25.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.25
+Bosch-Kamera-26.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 26" "N016|i|abc Bosch Kamera Flur 3 Parkplatz"
+Bosch-Kamera-26.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.26
+Bosch-Kamera-27.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 27" "O001|A12 Bosch Kamera Foyer"
+Bosch-Kamera-27.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.27
+Bosch-Kamera-28.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 28" "O105|F4 Bosch Kamera Strasseneingang"
+Bosch-Kamera-28.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.28
+Bosch-Kamera-29.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 29" "O105|F7 Bosch Kamera Parkplatzeingang"
+Bosch-Kamera-29.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.29
+Bosch-Kamera-3.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera 3" "A Flur 2|3,1|A1"
+Bosch-Kamera-3.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.3
+Bosch-Kamera-30.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 30" "O105|F8 Bosch Kamera Eingang Sued TRH"
+Bosch-Kamera-30.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.30
+Bosch-Kamera-32.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 32" "A122|122innen"
+Bosch-Kamera-32.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.32
+Bosch-Kamera-33.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 33" "A113|4,2|B11 Aussen Sued West Richtung Ost Alzeyer str."
+Bosch-Kamera-33.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.33
+Bosch-Kamera-34.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 34" "A113|4,2|B12 Aussen Sued West Richtung Nord Aula"
+Bosch-Kamera-34.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.34
+Bosch-Kamera-35.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 35" "A101|4,2|B13 Aussen Nord Ost Richtung Sueden Erenburgerstr."
+Bosch-Kamera-35.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.35
+Bosch-Kamera-36.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 36" "A101|4,2|B14 Aussen Nord Ost Richtung Westen Haupteingang"
+--
+Bosch-Kamera-4.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.4
+Bosch-Kamera-4.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera 4" "A002|3,1|A2"
+Bosch-Kamera-43.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 43" "A103|3,2|A14 Kamera"
+Bosch-Kamera-43.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.43
+Bosch-Kamera-44.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 44" "A104|3,2|A15 Kamera"
+Bosch-Kamera-44.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.44
+Bosch-Kamera-45.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 45" "U008||A16 Kamera"
+Bosch-Kamera-45.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.45
+Bosch-Kamera-46.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 46" "A106|3,2|A17 Kamera"
+Bosch-Kamera-46.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.46
+Bosch-Kamera-47.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 47" "A107|4,2|A5 Kamera"
+Bosch-Kamera-47.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.47
+Bosch-Kamera-5.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera 5" "A002|3,1|A3"
+Bosch-Kamera-5.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.5
+Bosch-Kamera-53.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 53" "A113|4,2|A10 Kamera"
+Bosch-Kamera-53.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.53
+Bosch-Kamera-54.RZ.Fh-Worms.DE.	86400 IN HINFO	"Bosch Kamera 54" "A114|4,2|A13 Bosch Kamera"
+Bosch-Kamera-54.RZ.Fh-Worms.DE.	86400 IN A	143.93.187.54
+Bosch-Kamera-6.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera 6" "AEG OST Flur 2|3,1|A4"
+Bosch-Kamera-6.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.6
+Bosch-Kamera-7.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera 7" "AOG-Flur-4 TRH3|4,2|B1"
+Bosch-Kamera-7.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.7
+Bosch-Kamera-8.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera 8" "AOG-Foyer OST|4,2|B9"
+Bosch-Kamera-8.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.8
+Bosch-Kamera-9.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera 9" "AUG-Flur-5 BIB SUED|4,0|A2"
+--
+console-geb-n4.RZ.Fh-Worms.DE. 86400 IN	A	143.93.165.41
+DiBos-Svr.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Bosch Kamera Server" "DiBos"
+DiBos-Svr.RZ.Fh-Worms.DE. 86400	IN	A	143.93.187.60
+DiBos-Svr-1.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera Server" "DiBos"
+DiBos-Svr-1.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.59
+DiBos-Svr-2.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera Server" "DiBos"
+DiBos-Svr-2.RZ.Fh-Worms.DE. 86400 IN	A	143.93.187.61
+DiBos-Svr-3.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Bosch Kamera Server" "DiBos"
+--
+dslrouter.RZ.Fh-Worms.DE. 86400	IN	A	143.93.167.89
+Europa-g0-6-48.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Europa" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+Europa-g0-6-48.RZ.Fh-Worms.DE. 86400 IN	A	143.93.170.1
+Europa-Te0-9-8.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Loki" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+--
+Fafner-Te0-9-7.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.234
+Fafner-Te0-9-7.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Fafner" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+--
+Fafner-VXR-g0-1.RZ.Fh-Worms.DE.	86400 IN CNAME	fh-wo-gate-2.rlp-net.net.
+Fafner-VXR-g0-3-7.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Router Fafner" "CS7206 VXR NPE 1G"
+--
+fedoracore8.RZ.Fh-Worms.DE. 86400 IN	A	143.93.167.35
+FH-Worms-Firewall-MGNT.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-ASA VPN-ASA" "ASA5585-20 2TGE, 8G, 2F"
+--
+ipmi-xen-verw5.RZ.Fh-Worms.DE. 86400 IN	A	143.93.165.39
+Isengart-g0-0-490.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-ASA Fh-Worms-Firewall-Fafner" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+Isengart-g0-0-490.RZ.Fh-Worms.DE. 86400	IN A	143.93.244.209
+Isengart-g0-0-909.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-ASA Fh-Worms-Firewall-Fafner" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+Isengart-g0-0-909.RZ.Fh-Worms.DE. 86400	IN A	143.93.170.65
+Isengart-g0-1-197.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-ASA Fh-Worms-Firewall-Fafner" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+--
+Isengart-g0-1-21.RZ.Fh-Worms.DE. 86400 IN AAAA	2001:4c80:81:f420::25
+Isengart-g0-1-21.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-ASA Fh-Worms-Firewall-Fafner" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+Isengart-g0-1-21.RZ.Fh-Worms.DE. 86400 IN A	143.93.244.37
+Isengart-g0-1-65.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-ASA Fh-Worms-Firewall-Fafner" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+Isengart-g0-1-65.RZ.Fh-Worms.DE. 86400 IN A	143.93.161.161
+isengart-g0-2-403.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-ASA Fh-Worms-Firewall-Fafner" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+--
+lenovo64.RZ.Fh-Worms.DE. 86400	IN	A	143.93.167.22
+loki-g0-0-199.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Router Loki" "CS7206 VXR"
+loki-g0-0-199.RZ.Fh-Worms.DE. 86400 IN	A	143.93.190.129
+loki-g0-3.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Loki" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+loki-g0-3.RZ.Fh-Worms.DE. 86400	IN	A	143.93.172.1
+loki-g0-4-62.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Loki" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+loki-g0-4-62.RZ.Fh-Worms.DE. 86400 IN	A	143.93.172.129
+loki-g0-5-61.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Loki" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+loki-g0-5-61.RZ.Fh-Worms.DE. 86400 IN	A	143.93.172.65
+Loki-g0-7.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-RZ" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+Loki-g0-7.RZ.Fh-Worms.DE. 86400	IN	A	143.93.190.65
+Loki-Te0-9-8.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Loki" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+--
+Loki-Te0-9-8.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.251
+Loki-Vlan-29.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-L3-Switch Balmung" "C6509-E 20TenG, 30G"
+Loki-Vlan-29.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.185
+loki-vxr.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Router Loki" "CS7206 VXR"
+loki-vxr.RZ.Fh-Worms.DE. 86400	IN	A	143.93.244.250
+loki-VXR-g0-0-22.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Router Loki" "CS7206 VXR"
+loki-VXR-g0-0-22.RZ.Fh-Worms.DE. 86400 IN A	143.93.244.49
+loki-VXR-Loopback0.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Router Loki" "CS7206 VXR"
+--
+optiplex.RZ.Fh-Worms.DE. 86400	IN	A	143.93.167.227
+outside.RZ.Fh-Worms.DE.	86400	IN	HINFO	"PC" "Linux"
+outside.RZ.Fh-Worms.DE.	86400	IN	A	143.93.167.93
+palantir.RZ.Fh-Worms.DE. 86400	IN	HINFO	"HP ProLiant DL380 G5" "Linux-Lenny"
+--
+RZ-Public-214.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.214
+RZ-Te0-9-8.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Loki" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"
+--
+SW-Geb-A-Ost.RZ.Fh-Worms.DE. 86400 IN	CNAME	SW-Geb-A-Ost-Loopback0.RZ.Fh-Worms.DE.
+SW-Geb-A-Ost-Loopback0.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-L3-Switch SW-Geb-A-Ost" "C4510R-E"
+--
+SW-Geb-A-Ost-Loopback0-v6.RZ.Fh-Worms.DE. 86400	IN AAAA	2001:4c80:81:f400::b
+SW-Geb-A-Ost-Vlan-101.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-A-Ost" "C4510R-E 2 TenG, 384"
+SW-Geb-A-Ost-Vlan-101.RZ.Fh-Worms.DE. 86400 IN A 143.93.162.1
+SW-Geb-A-Ost-Vlan-102.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-A-Ost" "C4510R-E 2 TenG, 384"
+SW-Geb-A-Ost-Vlan-102.RZ.Fh-Worms.DE. 86400 IN A 143.93.162.33
+SW-Geb-A-Ost-Vlan-103.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-A-Ost" "C4510R-E 2 TenG, 384"
+SW-Geb-A-Ost-Vlan-103.RZ.Fh-Worms.DE. 86400 IN A 143.93.162.65
+SW-Geb-A-Ost-Vlan-104.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-A-Ost" "C4510R-E 2 TenG, 384"
+SW-Geb-A-Ost-Vlan-104.RZ.Fh-Worms.DE. 86400 IN A 143.93.162.129
+SW-Geb-A-Ost-Vlan-106.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-A-Ost" "C4510R-E 2 TenG, 384"
+SW-Geb-A-Ost-Vlan-106.RZ.Fh-Worms.DE. 86400 IN A 143.93.162.193
+SW-Geb-A-Ost-Vlan-2.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-L3-Switch SW-Geb-A-West" "C4510R-E"
+--
+SW-Geb-A-Ost-Vlan-2.RZ.Fh-Worms.DE. 86400 IN A	143.93.244.83
+SW-Geb-A-Ost-Vlan-28.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-A-Ost" "C4510R-E"
+SW-Geb-A-Ost-Vlan-28.RZ.Fh-Worms.DE. 86400 IN A	143.93.161.65
+SW-Geb-A-Ost-Vlan-5.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-L3-Switch SW-Geb-A-Ost" "C4510R-E"
+--
+SW-Geb-A-West-2.RZ.Fh-Worms.DE.	86400 IN CNAME	SW-Geb-A-West-2-Loopback0.RZ.Fh-Worms.DE.
+SW-Geb-A-West-2-Loopback0.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-L3-Switch SW-Geb-A-West-2" "C4510R 4 TenG, 152G, 48F"
+--
+SW-Geb-A-West-2-Loopback0-v6.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f400::3
+SW-Geb-A-West-2-Vlan-2.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-L3-Switch Balmung" "C6509-E 20TenG, 30G"
+--
+SW-Geb-A-West-II.RZ.Fh-Worms.DE. 86400 IN CNAME	SW-Geb-A-West-2-Loopback0.RZ.Fh-Worms.DE.
+SW-Geb-A-West-Loopback0.RZ.Fh-Worms.DE.	86400 IN HINFO "Cisco-L3-Switch SW-Geb-A-West" "C4510R-E"
+--
+SW-Geb-A-West-Loopback0-v6.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f400::c
+SW-Geb-A-West-Vlan-107.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-Switch SW-Geb-A-West" "C4510R-E 2 TenG, 384"
+SW-Geb-A-West-Vlan-107.RZ.Fh-Worms.DE. 86400 IN	A 143.93.163.1
+SW-Geb-A-West-Vlan-113.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-Switch SW-Geb-A-West" "C4510R-E 2 TenG, 384"
+SW-Geb-A-West-Vlan-113.RZ.Fh-Worms.DE. 86400 IN	A 143.93.163.129
+SW-Geb-A-West-Vlan-114.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-Switch SW-Geb-A-West" "C4510R-E 2 TenG, 384"
+SW-Geb-A-West-Vlan-114.RZ.Fh-Worms.DE. 86400 IN	A 143.93.163.193
+SW-Geb-A-West-Vlan-163.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-A-West-Vlan-163.RZ.Fh-Worms.DE. 86400 IN	A 143.93.179.1
+SW-Geb-A-West-Vlan-166.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-Switch SW-Geb-A-Ost" "C4510R-E 2 TenG, 384"
+SW-Geb-A-West-Vlan-166.RZ.Fh-Worms.DE. 86400 IN	A 143.93.187.1
+SW-Geb-A-West-Vlan-2.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-L3-Switch SW-Geb-A-West" "C4510R-E"
+--
+SW-Geb-A-West-Vlan-20.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f440::45
+SW-Geb-A-West-Vlan-20.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-L3-Switch SW-Geb-A-West" "C4510R-E"
+SW-Geb-A-West-Vlan-20.RZ.Fh-Worms.DE. 86400 IN A 143.93.244.69
+SW-Geb-A-West-Vlan-99.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-A-West" "C4510R-E 2 TenG, 384"
+SW-Geb-A-West-Vlan-99.RZ.Fh-Worms.DE. 86400 IN A 143.93.161.193
+SW-Geb-A105.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-A105" "WS-C2960G-8TC-L 2G, 24F"
+SW-Geb-A105.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.111
+SW-Geb-A112.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-A112" "WS-C2960G-8TC-L 2G, 24F"
+SW-Geb-A112.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.110
+SW-Geb-A116.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-A120" "WS-C2960G-8TC-L 2G, 24F"
+SW-Geb-A116.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.112
+SW-Geb-C-Heizung.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-C28" "WS-C2960G-8TC-L 2G, 24F"
+SW-Geb-C-Heizung.RZ.Fh-Worms.DE. 86400 IN A	143.93.244.109
+SW-Geb-G.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Switch SW-Geb-G" "CS3550-24PWR 2G, 24F"
+SW-Geb-G.RZ.Fh-Worms.DE. 86400	IN	A	143.93.244.122
+SW-Geb-G-1-OG.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-G-1-OG" "CS3550-24PWR 2G, 24F"
+SW-Geb-G-1-OG.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.113
+SW-Geb-G-3-OG.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-G-3-OG" "CS3550-24PWR 2G, 24F"
+SW-Geb-G-3-OG.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.108
+SW-Geb-G-EG.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-G-EG" "CS3550-24PWR 2G, 24F"
+SW-Geb-G-EG.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.123
+SW-Geb-H.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Switch SW-Geb-C" "CS3750G-48\00950G"
+SW-Geb-H.RZ.Fh-Worms.DE. 86400	IN	A	143.93.244.107
+SW-Geb-K.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Switch SW-Geb-K" "CS3550-24PWR 8G, 96F"
+--
+SW-Geb-K-Vlan-301.RZ.Fh-Worms.DE. 86400	IN CNAME SW-Geb-K.RZ.Fh-Worms.DE.
+SW-Geb-L.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Switch SW-Geb-L" "CS3750G-96PS\009104G"
+SW-Geb-L.RZ.Fh-Worms.DE. 86400	IN	A	143.93.244.114
+SW-Geb-M.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Switch SW-Geb-M" "CS3750G-96PS\009104G"
+--
+SW-Geb-N.RZ.Fh-Worms.DE. 86400	IN	CNAME	SW-Geb-N-Loopback0.RZ.Fh-Worms.DE.
+SW-Geb-N-1-OG.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N-1-OG" "CS3750G-96PS 104G"
+SW-Geb-N-1-OG.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.171
+SW-Geb-N-2-OG.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N-2-OG" "CS3750G-96PS 104G"
+SW-Geb-N-2-OG.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.172
+SW-Geb-N-3-OG.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N-3-OG" "CS3750G-96PS 104G"
+--
+SW-Geb-N-Business-Computing-Labor.RZ.Fh-Worms.DE. 86400	IN CNAME SW-Geb-N041.RZ.Fh-Worms.DE.
+SW-Geb-N-EG.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N-EG" "CS3750G-96PS 104G"
+--
+SW-Geb-N-ET-Labor.RZ.Fh-Worms.DE. 86400	IN CNAME SW-Geb-N140.RZ.Fh-Worms.DE.
+SW-Geb-N-G1-4.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-L3-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+--
+SW-Geb-N-LL.RZ.Fh-Worms.DE. 86400 IN	CNAME	SW-Geb-N140.RZ.Fh-Worms.DE.
+SW-Geb-N-Loopback0.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-L3-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+--
+SW-Geb-N-NT-Labor.RZ.Fh-Worms.DE. 86400	IN CNAME SW-Geb-N141.RZ.Fh-Worms.DE.
+SW-Geb-N-OG-Vlan-16.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+--
+SW-Geb-N-Software-Engineering-Labor.RZ.Fh-Worms.DE. 86400 IN CNAME SW-Geb-N040.RZ.Fh-Worms.DE.
+SW-Geb-N-Vlan-10.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-L3-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-10.RZ.Fh-Worms.DE. 86400 IN A	143.93.244.97
+SW-Geb-N-Vlan-11.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-11.RZ.Fh-Worms.DE. 86400 IN A	143.93.185.1
+SW-Geb-N-Vlan-15.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-15.RZ.Fh-Worms.DE. 86400 IN A	143.93.188.65
+SW-Geb-N-Vlan-167.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-L3-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-167.RZ.Fh-Worms.DE. 86400	IN A	143.93.167.1
+SW-Geb-N-vlan-168.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch Balmung" "C6509-E 20TenG, 30G"
+SW-Geb-N-vlan-168.RZ.Fh-Worms.DE. 86400	IN A	143.93.190.1
+SW-Geb-N-Vlan-17.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-17.RZ.Fh-Worms.DE. 86400 IN A	143.93.188.193
+SW-Geb-N-Vlan-18.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-18.RZ.Fh-Worms.DE. 86400 IN A	143.93.188.1
+SW-Geb-N-Vlan-19.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+--
+SW-Geb-N-Vlan-2.RZ.Fh-Worms.DE.	86400 IN A	143.93.244.90
+SW-Geb-N-Vlan-2.RZ.Fh-Worms.DE.	86400 IN HINFO	"Cisco-L3-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-204.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-G" "CS3550-24PWR 2G, 24F"
+sw-geb-n-vlan-204.RZ.Fh-Worms.DE. 86400	IN A	143.93.189.161
+SW-Geb-N-Vlan-25.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch Balmung" "C6509-E 20 TenG, 30G"
+SW-Geb-N-Vlan-25.RZ.Fh-Worms.DE. 86400 IN A	143.93.165.1
+SW-Geb-N-Vlan-260.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-260.RZ.Fh-Worms.DE. 86400	IN A	143.93.185.225
+SW-Geb-N-Vlan-27.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-L3-Switch Balmung" "C6509-E 20 TenG, 30G"
+SW-Geb-N-Vlan-27.RZ.Fh-Worms.DE. 86400 IN A	143.93.165.65
+SW-Geb-N-Vlan-301.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-L3-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-301.RZ.Fh-Worms.DE. 86400	IN A	143.93.244.161
+SW-Geb-N-Vlan-402.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-L3-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+SW-Geb-N-Vlan-402.RZ.Fh-Worms.DE. 86400	IN A	143.93.244.177
+sw-geb-n-vlan-551.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-551.RZ.Fh-Worms.DE. 86400	IN A	143.93.177.1
+sw-geb-n-vlan-552.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-552.RZ.Fh-Worms.DE. 86400	IN A	143.93.177.129
+sw-geb-n-vlan-600.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-600.RZ.Fh-Worms.DE. 86400	IN A	143.93.174.1
+sw-geb-n-vlan-610.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-610.RZ.Fh-Worms.DE. 86400	IN A	143.93.174.65
+sw-geb-n-vlan-623.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-623.RZ.Fh-Worms.DE. 86400	IN A	143.93.175.1
+sw-geb-n-vlan-640.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-640.RZ.Fh-Worms.DE. 86400	IN A	143.93.175.129
+sw-geb-n-vlan-660.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-660.RZ.Fh-Worms.DE. 86400	IN A	143.93.178.1
+sw-geb-n-vlan-661.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-661.RZ.Fh-Worms.DE. 86400	IN A	143.93.178.33
+sw-geb-n-vlan-662.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-662.RZ.Fh-Worms.DE. 86400	IN A	143.93.178.65
+sw-geb-n-vlan-663.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-663.RZ.Fh-Worms.DE. 86400	IN A	143.93.178.81
+sw-geb-n-vlan-664.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-664.RZ.Fh-Worms.DE. 86400	IN A	143.93.178.89
+sw-geb-n-vlan-665.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-665.RZ.Fh-Worms.DE. 86400	IN A	143.93.178.97
+sw-geb-n-vlan-666.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+sw-geb-n-vlan-666.RZ.Fh-Worms.DE. 86400	IN A	143.93.178.113
+sw-geb-n-vlan-667.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-N" "C4510R-E 4 TenG, 176G"
+--
+SW-Geb-N-WS-Labor.RZ.Fh-Worms.DE. 86400	IN CNAME SW-Geb-N239.RZ.Fh-Worms.DE.
+SW-Geb-N039.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N039" "CS3750G-48 56G"
+--
+SW-Geb-N039.RZ.Fh-Worms.DE. 86400 IN	A	143.93.186.1
+SW-Geb-N039-Vlan-217.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N039" "CS3750G-24 28G"
+SW-Geb-N039-Vlan-217.RZ.Fh-Worms.DE. 86400 IN A	143.93.186.1
+SW-Geb-N040.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N040" "CS3750G-48 56G"
+--
+SW-Geb-N040.RZ.Fh-Worms.DE. 86400 IN	A	143.93.186.65
+SW-Geb-N040-Vlan-219.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N040" "CS3750G-24 28G"
+SW-Geb-N040-Vlan-219.RZ.Fh-Worms.DE. 86400 IN A	143.93.186.65
+SW-Geb-N041.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N041" "CS3750G-48 56G"
+--
+SW-Geb-N041.RZ.Fh-Worms.DE. 86400 IN	A	143.93.186.129
+SW-Geb-N041-Vlan-225.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N041" "CS3750G-24 28G"
+SW-Geb-N041-Vlan-225.RZ.Fh-Worms.DE. 86400 IN A	143.93.186.129
+SW-Geb-N042.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N042" "CS3750G-24 28G"
+--
+SW-Geb-N042.RZ.Fh-Worms.DE. 86400 IN	A	143.93.186.193
+SW-Geb-N042-Vlan-213.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N042" "CS3750G-24 28G"
+SW-Geb-N042-Vlan-213.RZ.Fh-Worms.DE. 86400 IN A	143.93.186.193
+SW-Geb-N043.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N043" "WS-C2960G-8TC-L 8G"
+SW-Geb-N043.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.248
+SW-Geb-N044.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N044" "WS-C2960G-8TC-L 8G"
+SW-Geb-N044.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.247
+SW-Geb-N045.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N045" "WS-C2960G-8TC-L 8G"
+SW-Geb-N045.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.246
+SW-Geb-N140.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N140" "CS3750G-24 28G"
+SW-Geb-N140.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.230
+sw-geb-n140-vlan-212.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N140" "C3750 28G"
+sw-geb-n140-vlan-212.RZ.Fh-Worms.DE. 86400 IN A	143.93.191.129
+SW-Geb-N141.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N141" "CS3750G-24 28G"
+SW-Geb-N141.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.231
+sw-geb-n141-vlan-226.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N141" "C3750 28G"
+sw-geb-n141-vlan-226.RZ.Fh-Worms.DE. 86400 IN A	143.93.191.65
+SW-Geb-N142.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N142" "CS3750G-24 28G"
+SW-Geb-N142.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.232
+sw-geb-n142-vlan-227.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N141" "C3750 28G"
+sw-geb-n142-vlan-227.RZ.Fh-Worms.DE. 86400 IN A	143.93.191.97
+SW-Geb-N143.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N143" "CS3750G-24 28G"
+SW-Geb-N143.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.233
+sw-geb-n143-vlan-228.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N143" "C3750 28G"
+sw-geb-n143-vlan-228.RZ.Fh-Worms.DE. 86400 IN A	143.93.191.193
+SW-Geb-N144.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N144" "CS3750G-24 28G"
+SW-Geb-N144.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.234
+sw-geb-n144-vlan-229.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N144" "C3750 28G"
+sw-geb-n144-vlan-229.RZ.Fh-Worms.DE. 86400 IN A	143.93.191.225
+SW-Geb-N147.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N147" "WS-C2960G-8TC-L 8G"
+SW-Geb-N147.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.244
+SW-Geb-N239.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N239" "CS3750G-24 28G"
+SW-Geb-N239.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.239
+SW-Geb-N239-Vlan-221.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N239" "C3750 28G"
+SW-Geb-N239-Vlan-221.RZ.Fh-Worms.DE. 86400 IN A	143.93.245.129
+SW-Geb-N240.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N240" "CS3750G-24 28G"
+SW-Geb-N240.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.240
+SW-Geb-N240-Vlan-220.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N240" "C3750 28G"
+SW-Geb-N240-Vlan-220.RZ.Fh-Worms.DE. 86400 IN A	143.93.245.65
+SW-Geb-N241.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N241" "CS3750G-24 28G"
+SW-Geb-N241.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.241
+SW-Geb-N242.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N242" "CS3750G-24 28G"
+SW-Geb-N242.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.242
+SW-Geb-N242-Vlan-208.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N242" "C3750 28G"
+SW-Geb-N242-Vlan-208.RZ.Fh-Worms.DE. 86400 IN A	143.93.245.1
+SW-Geb-N243.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Geb-N243" "CS3750G-24 28G"
+SW-Geb-N243.RZ.Fh-Worms.DE. 86400 IN	A	143.93.185.243
+SW-Geb-N243-Vlan-211.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-Switch SW-Geb-N243" "C3750 28G"
+--
+SW-Geb-O.RZ.Fh-Worms.DE. 86400	IN	CNAME	SW-Geb-O-Loopback0.RZ.Fh-Worms.DE.
+SW-Geb-O-Loopback0.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-L3-Switch SW-Geb-O" "C4510R-E 4 TenG, 176G"
+--
+SW-Geb-O-Loopback0-v6.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f400::4
+sw-geb-O-vlan-180.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-180.RZ.Fh-Worms.DE. 86400	IN A	143.93.189.1
+sw-geb-O-vlan-181.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-181.RZ.Fh-Worms.DE. 86400	IN A	143.93.189.113
+sw-geb-O-vlan-182.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-182.RZ.Fh-Worms.DE. 86400	IN A	143.93.189.129
+sw-geb-o-vlan-183.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-o-vlan-183.RZ.Fh-Worms.DE. 86400	IN A	143.93.189.193
+SW-Geb-O-Vlan-2.RZ.Fh-Worms.DE.	86400 IN HINFO	"Cisco-L3-Switch SW-Geb-O" "C4510R-E 4 TenG, 176G"
+--
+SW-Geb-O-Vlan-2.RZ.Fh-Worms.DE.	86400 IN A	143.93.244.94
+sw-geb-O-vlan-203.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-203.RZ.Fh-Worms.DE. 86400	IN A	143.93.189.209
+sw-geb-O-vlan-206.RZ.Fh-Worms.DE. 86400	IN HINFO "Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-206.RZ.Fh-Worms.DE. 86400	IN A	143.93.189.145
+sw-geb-O-vlan-49.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-49.RZ.Fh-Worms.DE. 86400 IN A	143.93.189.177
+sw-geb-O-vlan-90.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-90.RZ.Fh-Worms.DE. 86400 IN A	143.93.189.65
+sw-geb-O-vlan-95.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-95.RZ.Fh-Worms.DE. 86400 IN A	143.93.189.97
+sw-geb-O-vlan-96.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-96.RZ.Fh-Worms.DE. 86400 IN A	143.93.189.49
+sw-geb-O-vlan-97.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-O-vlan-97.RZ.Fh-Worms.DE. 86400 IN A	143.93.189.33
+sw-geb-o-vlan-98.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-Switch SW-Geb-O" "C4510R"
+sw-geb-o-vlan-98.RZ.Fh-Worms.DE. 86400 IN A	143.93.189.81
+SW-Mensa.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Switch SW-Mensa" "C3560G-24TS 28G"
+--
+SW-RZ-Reserve.RZ.Fh-Worms.DE. 86400 IN	CNAME	SW-RZ-Reserve-Loopback0.RZ.Fh-Worms.DE.
+SW-RZ-Reserve-Loopback0.RZ.Fh-Worms.DE.	86400 IN HINFO "Cisco-L3-Switch SW-RZ-Reserve" "C4506 2G, 48F"
+--
+SW-RZ-Reserve-Loopback0-v6.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f400::9
+SW-RZ-Reserve-Vlan2.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-L3-Switch SW-RZ-Reserve" "C4506 2G, 48F"
+--
+SW-RZ-Reserve-Vlan2-v6.RZ.Fh-Worms.DE. 86400 IN	AAAA 2001:4c80:81:f450::59
+SW-StudWoh.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Studwoh" "CS3750-120 10G, 120F"
+SW-StudWoh.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.180
+SW-StudWoh-J.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-Switch SW-Studwoh-J" "CS3560-48TS 4G, 48F"
+SW-StudWoh-J.RZ.Fh-Worms.DE. 86400 IN	A	143.93.244.181
+SW-ZTT-O.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-Switch SW-ZTT-O" "C3560G-24TS 28G"
+--
+test-pc4-c119.RZ.Fh-Worms.DE. 86400 IN	A	143.93.167.23
+testpc1.RZ.Fh-Worms.DE.	86400	IN	HINFO	"Test-PC" "A120"
+--
+troubadix.RZ.Fh-Worms.DE. 86400	IN	A	143.93.167.100
+TS2000.RZ.Fh-Worms.DE.	86400	IN	HINFO	"TS2000" "Consolen"
+--
+verw-Raid1.RZ.Fh-Worms.DE. 86400 IN	A	143.93.165.59
+VIP-XD.RZ.Fh-Worms.DE.	86400	IN	HINFO	"Bosch VIP-XD Video Encoder Decoder" "B19|2,1| Bib Bosch Monitor"
+--
+Vlan-8.RZ.Fh-Worms.DE.	86400	IN	A	143.93.244.240
+vm-outside.RZ.Fh-Worms.DE. 86400 IN	HINFO	"PC" "VM-Linux"
+--
+voyager.RZ.Fh-Worms.DE.	86400	IN	A	143.93.167.210
+VPN-ASA-MGNT.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA VPN-ASA" "ASA5520 5G, 1F"
+--
+VPN-Client-ASA-Bcast.RZ.Fh-Worms.DE. 86400 IN A	143.93.168.255
+VPN-Client-ASA-Pool.RZ.Fh-Worms.DE. 86400 IN HINFO "Cisco-VPN VPN-ASA" "5520"
+--
+VPN-Client-Bcast.RZ.Fh-Worms.DE. 86400 IN A	143.93.184.255
+VPN-Client-Pool.RZ.Fh-Worms.DE.	86400 IN HINFO	"Cisco-VPN VPN" "3000"
+--
+VPN-Client-RM-ASA-Bcast.RZ.Fh-Worms.DE.	86400 IN A 143.93.161.191
+VPN-Client-RM-ASA-Pool.RZ.Fh-Worms.DE. 86400 IN	HINFO "Cisco-VPN VPN-ASA" "5520"
+--
+VPN-External.RZ.Fh-Worms.DE. 86400 IN	CNAME	VPN-External-ASA.RZ.Fh-Worms.DE.
+VPN-External-ASA.RZ.Fh-Worms.DE. 86400 IN HINFO	"Cisco-VPN VPN-ASA" "ASA5520, 2048 MB RAM, CPU Pentium 4 Celeron 2000 MHz"
+--
+VPN-Private.RZ.Fh-Worms.DE. 86400 IN	CNAME	VPN-Private-ASA.RZ.Fh-Worms.DE.
+VPN-Private-ASA.RZ.Fh-Worms.DE.	86400 IN HINFO	"Cisco-VPN VPN-ASA" "ASA5520, 2048 MB RAM, CPU Pentium 4 Celeron 2000 MHz"
+--
+VPN-Private-ASA-v6.RZ.Fh-Worms.DE. 86400 IN AAAA 2001:4c80:81:f430::32
+VPN-Private-Old.RZ.Fh-Worms.DE.	86400 IN HINFO	"Cisco-VPN VPN" "3000"
+--
+VPN-Public.RZ.Fh-Worms.DE. 86400 IN	CNAME	VPN-Public-ASA.RZ.Fh-Worms.DE.
+VPN-Public-ASA.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-VPN VPN-ASA" "ASA5520, 2048 MB RAM, CPU Pentium 4 Celeron 2000 MHz"
+--
+VPN-Public-ASA-v6.RZ.Fh-Worms.DE. 86400	IN AAAA	2001:4c80:81:f440::48
+VPN-Verw.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Cisco-VPN VPN-ASA" "ASA5520, 2048 MB RAM, CPU Pentium 4 Celeron 2000 MHz"
+--
+Wave-A-Bib-Lesesaal.RZ.Fh-Worms.DE. 86400 IN CNAME Wave-A018.RZ.Fh-Worms.DE.
+Wave-A001.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A001.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.10
+Wave-A002.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A002.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.11
+Wave-A011.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A011.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.12
+Wave-A012.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A012.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.13
+Wave-A013.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A013.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.14
+Wave-A014.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A014.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.15
+Wave-A018.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A018.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.16
+Wave-A019.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A019.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.17
+Wave-A020.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A020.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.18
+Wave-A021.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A021.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.20
+Wave-A022.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A022.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.21
+Wave-A024.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A024.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.22
+Wave-A101.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A101.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.31
+Wave-A102.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A102.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.32
+Wave-A103.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A103.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.33
+Wave-A104.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A104.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.34
+Wave-A106.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A106.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.35
+Wave-A107-Ost.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A107-Ost.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.37
+Wave-A107-West.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+--
+Wave-A107R.RZ.Fh-Worms.DE. 86400 IN	CNAME	Wave-A107-West.RZ.Fh-Worms.DE.
+Wave-A112.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A112.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.38
+Wave-A113.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A113.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.39
+Wave-A114.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A114.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.40
+Wave-A121.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A121.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.41
+Wave-A122.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A122.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.47
+Wave-A124.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A124.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.42
+Wave-A125.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A125.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.43
+Wave-A126.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A126.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.44
+Wave-A128.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A128.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.45
+Wave-A129.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A129.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.46
+Wave-A201-Ost.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-A201-Ost.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.51
+Wave-A201-West.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+--
+Wave-AU008.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.2
+Wave-AU008.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU011.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU011.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.3
+Wave-AU012.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU012.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.4
+Wave-AU015.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU015.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.5
+Wave-AU016.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU016.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.6
+Wave-AU020.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU020.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.7
+Wave-AU021.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU021.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.8
+Wave-AU026.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-AU026.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.9
+Wave-Audi-Max-Ost.RZ.Fh-Worms.DE. 86400	IN HINFO "AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Audi-Max-Ost.RZ.Fh-Worms.DE. 86400	IN A	143.93.179.61
+Wave-Audi-Max-West.RZ.Fh-Worms.DE. 86400 IN HINFO "AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Audi-Max-West.RZ.Fh-Worms.DE. 86400 IN A	143.93.179.62
+Wave-Aula-Nord.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Aula-Nord.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.77
+Wave-Aula-Sued.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Aula-Sued.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.76
+Wave-B-Foyer-1OG.RZ.Fh-Worms.DE. 86400 IN HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-B-Foyer-1OG.RZ.Fh-Worms.DE. 86400 IN A	143.93.179.78
+Wave-B-Foyer-EG.RZ.Fh-Worms.DE.	86400 IN HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-B-Foyer-EG.RZ.Fh-Worms.DE.	86400 IN A	143.93.179.69
+Wave-B-Foyer-UG.RZ.Fh-Worms.DE.	86400 IN HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-B-Foyer-UG.RZ.Fh-Worms.DE.	86400 IN A	143.93.179.63
+Wave-B200-Nord.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-B200-Nord.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.87
+Wave-B200-Sued.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-B200-Sued.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.86
+Wave-C-Flur1-UG.RZ.Fh-Worms.DE.	86400 IN HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C-Flur1-UG.RZ.Fh-Worms.DE.	86400 IN A	143.93.179.64
+Wave-C-Flur2-UG.RZ.Fh-Worms.DE.	86400 IN HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C-Flur2-UG.RZ.Fh-Worms.DE.	86400 IN A	143.93.179.65
+Wave-C-Heizung.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C-Heizung.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.206
+Wave-C038.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C038.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.70
+Wave-C039.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C039.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.71
+Wave-C040.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C040.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.72
+Wave-C131.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C131.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.79
+Wave-C132.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C132.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.80
+Wave-C133.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C133.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.81
+Wave-C134.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C134.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.82
+Wave-C201.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C201.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.88
+Wave-C203.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C203.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.89
+Wave-C204.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-C204.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.90
+Wave-C205.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+--
+Wave-Campus-Aula.RZ.Fh-Worms.DE. 86400 IN CNAME	Wave-A120.RZ.Fh-Worms.DE.
+Wave-Campus-BCD.RZ.Fh-Worms.DE.	86400 IN HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+--
+Wave-Campus-LMN.RZ.Fh-Worms.DE.	86400 IN CNAME	Wave-N147.RZ.Fh-Worms.DE.
+Wave-CU035.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-CU035.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.66
+Wave-D042.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-D042.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.74
+Wave-D043.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-D043.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.75
+Wave-D137.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-D137.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.83
+Wave-D138-Nord.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-D138-Nord.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.85
+Wave-D138-Sued.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-D138-Sued.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.84
+Wave-DU041.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-DU041.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.67
+Wave-DU042.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-DU042.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.68
+Wave-G-1130.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-G-1130.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.246
+Wave-G20.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-G20.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.143
+Wave-G207.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-G207.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.245
+Wave-G221.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-G221.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.210
+Wave-G223.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-G223.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.247
+Wave-G3.RZ.Fh-Worms.DE.	86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-G3.RZ.Fh-Worms.DE.	86400	IN	A	143.93.179.209
+Wave-H15.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-H15.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.229
+Wave-H304.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-H304.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.222
+Wave-K116.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-K116.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.231
+Wave-K119.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-K119.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.228
+Wave-KU15.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-KU15.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.221
+Wave-L-Keller.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-L-Keller.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.248
+Wave-L109.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-L109.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.252
+Wave-L9.RZ.Fh-Worms.DE.	86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+--
+Wave-M-Keller.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.243
+Wave-M-Keller.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-M-Senat.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-M-Senat.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.205
+Wave-M106.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-M106.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.132
+Wave-M109.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-M109.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.130
+Wave-M2.RZ.Fh-Worms.DE.	86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-M2.RZ.Fh-Worms.DE.	86400	IN	A	143.93.179.131
+Wave-M9.RZ.Fh-Worms.DE.	86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-M9.RZ.Fh-Worms.DE.	86400	IN	A	143.93.179.129
+Wave-Mensa-Ost.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1242" "Cisco_Software_Rel. 12.3(8)JEC2"
+Wave-Mensa-Ost.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.219
+Wave-Mensa-West.RZ.Fh-Worms.DE.	86400 IN HINFO	"AP 1242" "Cisco_Software_Rel. 12.3(8)JEC2"
+Wave-Mensa-West.RZ.Fh-Worms.DE.	86400 IN A	143.93.179.218
+Wave-N001.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N001.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.158
+Wave-N004.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N004.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.159
+Wave-N008.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N008.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.160
+Wave-N011.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N011.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.161
+Wave-N016.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N016.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.162
+Wave-N017.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1250" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N017.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.149
+Wave-N028.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N028.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.163
+Wave-N042.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N042.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.164
+Wave-N043.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N043.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.165
+Wave-N101.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N101.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.166
+Wave-N104.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N104.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.167
+Wave-N108.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+--
+Wave-N112.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.169
+Wave-N125.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N125.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.151
+Wave-N131.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N131.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.171
+Wave-N144.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N144.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.172
+Wave-N145.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N145.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.152
+Wave-N147.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1242" "Cisco_Software_Rel. 12.3(7)JEC2"
+Wave-N147.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.217
+Wave-N201.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N201.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.174
+Wave-N204.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N204.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.175
+Wave-N208.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N208.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.176
+Wave-N212.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N212.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.177
+Wave-N215.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N215.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.178
+Wave-N230.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N230.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.179
+Wave-N242.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N242.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.180
+Wave-N244.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N244.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.181
+Wave-N304.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N304.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.182
+Wave-N308.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N308.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.183
+Wave-N312.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N312.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.184
+Wave-N330.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N330.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.186
+Wave-N334.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-N334.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.185
+Wave-NU001.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-NU001.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.138
+Wave-NU005.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-NU005.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.155
+Wave-NU008.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-NU008.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.150
+Wave-NU011.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-NU011.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.191
+Wave-NU017.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-NU017.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.244
+Wave-O001.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O001.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.192
+Wave-O015.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O015.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.193
+Wave-O019.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O019.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.194
+Wave-O101.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O101.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.195
+Wave-O105.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O105.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.196
+Wave-O115.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O115.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.197
+Wave-O119.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O119.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.198
+Wave-O201.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O201.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.199
+Wave-O215.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O215.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.200
+Wave-O220.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O220.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.201
+Wave-O301.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O301.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.202
+Wave-O315.RZ.Fh-Worms.DE. 86400	IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-O315.RZ.Fh-Worms.DE. 86400	IN	A	143.93.179.203
+Wave-OU001.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-OU001.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.153
+Wave-OU004.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-OU004.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.170
+Wave-Res-144.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Res-144.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.144
+Wave-Res-145.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Res-145.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.145
+Wave-Res-146.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Res-146.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.146
+Wave-Res-147.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Res-147.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.147
+Wave-Res-148.RZ.Fh-Worms.DE. 86400 IN	HINFO	"AP 1200" "Cisco_Software_Rel. 12.4(10b)JDA"
+Wave-Res-148.RZ.Fh-Worms.DE. 86400 IN	A	143.93.179.148
+Wave-WLSE.RZ.Fh-Worms.DE. 86400	IN	HINFO	"Wireless LAN Solution" "CWWLSE-1133-K9"
+Wave-WLSE.RZ.Fh-Worms.DE. 86400	IN	A	143.93.190.68
+Wave-WLSE-eth1.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Wireless LAN Solution ETH 1" "CWWLSE-1133-K9"
+--
+wus.RZ.Fh-Worms.DE.	86400	IN	A	143.93.167.50
+www-dmz.RZ.Fh-Worms.DE.	86400	IN	HINFO	"MHHost www-his" "Verw"
+--
+www-dmz2.RZ.Fh-Worms.DE. 86400	IN	A	143.93.161.165
+www-europa.RZ.Fh-Worms.DE. 86400 IN	HINFO	"MHHost www-his" "Verw"
+--
+www-logserver.RZ.Fh-Worms.DE. 86400 IN	CNAME	www-nagios.RZ.Fh-Worms.de.
+www-lsf.RZ.Fh-Worms.DE.	86400	IN	HINFO	"MHHost www-his" "Verw"
+--
+xen-wir-imhm.RZ.Fh-Worms.DE. 86400 IN	A	143.93.165.102
+ZTT-Te0-9-8.RZ.Fh-Worms.DE. 86400 IN	HINFO	"Cisco-ASA Fh-Worms-Firewall-Loki" "ASA5585-SSP-20, 12288 MB RAM, CPU Xeon 5500 series 2133 MHz, 1 CPUs, 8 cores"

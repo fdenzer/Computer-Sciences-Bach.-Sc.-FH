@@ -18,6 +18,8 @@ ___________________________________
 
 * sealed bietet Geschwindigkeitsvorteile
 
+	* zur Laufzeit muss in keiner vtable nachgeschlagen werden
+
 * Die Sicherheit steigt, da keine zusätzlichen, modifizierten Klassen Attribute benutzten dürfen.
 
 ## 2. Deklarativ statt imperativ
@@ -41,6 +43,8 @@ Beim Aufruf einer Funktion zur Laufzeit wird diejenige Funktion aufgerufen, welc
 ___________________________________
 
 # 
+
+
 
 ___________________________________
 

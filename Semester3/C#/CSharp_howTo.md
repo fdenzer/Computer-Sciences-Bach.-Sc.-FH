@@ -42,9 +42,43 @@ Beim Aufruf einer Funktion zur Laufzeit wird diejenige Funktion aufgerufen, welc
 
 ___________________________________
 
-# 
+# Nullable und Fehlerbehandlung
 
+	int? i;
 
+i kann null sein, da das Suffix "?" angehängt wurde.
+
+## as-Keyword
+
+Mit der Zuweisung
+
+	int? i = k as int;
+
+wird sichergestellt, dass keine Exception geworfen wird,
+falls k inkompatibel mit dem cast nach int ist.
+
+Dannach kann geprüft werden, ob i null enthält.
+
+	if (i == null) {
+		// beispielsweise Wert zuweisen wenn keiner Vorhanden
+		i = 0;
+	}
+
+Objekte (und ***vermutlich auch*** andere Referenztypen) sind auch ohne
+das Fragezeichen als Suffix auf null setzbar.
+
+## Fehlerbehandlung mit try/catch
+
+Die Alternative zum as-Schlüsselwort stellt ein try-catch-Block
+dar, in dem ein (expliziter) cast aufgerufen wird.
+
+	try {
+		int i = (int) k;
+	} catch (InvalidCastException inCaEx) {
+		TextWriter errorWriter = Console.Error;
+		errorWriter.WriteLine(inCaEx.Message);
+		i = 0;
+	}
 
 ___________________________________
 

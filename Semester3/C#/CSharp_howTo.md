@@ -12,11 +12,11 @@ ___________________________________
 
 ### Gründe
 
-* man kann bei Bedarf nicht von non-sealed auf sealed umstellen, umgekehrt hingegenen schon
+* man kann bei Bedarf nicht von non-sealed auf `sealed` umstellen, umgekehrt hingegenen schon
 
-	* daher sollte sealed der Standard sein
+	* daher sollte `sealed` der Standard sein
 
-* sealed bietet Geschwindigkeitsvorteile
+* `sealed` bietet Geschwindigkeitsvorteile
 
 	* zur Laufzeit muss in keiner vtable nachgeschlagen werden
 
@@ -46,7 +46,7 @@ ___________________________________
 
 	int? i;
 
-i kann null sein, da das Suffix "?" angehängt wurde.
+`i` kann `null` sein, da das Suffix `?` angehängt wurde.
 
 ## as-Keyword
 
@@ -54,10 +54,10 @@ Mit der Zuweisung
 
 	int? i = k as int;
 
-wird sichergestellt, dass keine Exception geworfen wird,
-falls k inkompatibel mit dem cast nach int ist.
+wird sichergestellt, dass keine `Exception` geworfen wird,
+falls `k` inkompatibel mit dem cast nach `int` ist.
 
-Dannach kann geprüft werden, ob i null enthält.
+Dannach kann geprüft werden, ob `i null` enthält.
 
 	if (i == null) {
 		// beispielsweise Wert zuweisen wenn keiner Vorhanden
@@ -69,7 +69,7 @@ das Fragezeichen als Suffix auf null setzbar.
 
 ## Fehlerbehandlung mit try/catch
 
-Die Alternative zum as-Schlüsselwort stellt ein try-catch-Block
+Die Alternative zum `as`-Schlüsselwort stellt ein `try`-`catch`-Block
 dar, in dem ein (expliziter) cast aufgerufen wird.
 
 	try {
@@ -82,13 +82,62 @@ dar, in dem ein (expliziter) cast aufgerufen wird.
 
 ___________________________________
 
+# .NET-Framework
+
+## System.DateTime
+
+* Genauigkeit 100 ns = 1 tick
+
+* können jeden Zeitpunkt vom 1.1.1 bis 31.12.9999 darstellen
+
+	(nach dem gregorianischen, heute geläufigen, Kalender)
+
+## Collections
+
+*							***ToDo***
+
+___________________________________
+
+# Weitere Schlüsselwörter
+
+## partial
+
+Wird eine Klasse oder void-Methode auf mehrere Quellcodedateien aufgeteilt so muss jede Stelle mit `partial` gekennzeichnet werden. Die einzelnen Teile werden vor dem Ausführen jedesmal automatisch zusammengefügt.
+
+## yield
+
+ist wichtig im Zusammenhang mit Iteratoren. An der Stelle des Aufrufs von `yield return` (z.B.) `value;` wird jeweils das nächste Element (hier value) der Aufzählung zurückgegeben.
+
+	http://msdn.microsoft.com/en-us/library/9k7k7cf0.aspx
+
+	Fibonacci-Folge mit yield: http://en.wikipedia.org/w/index.php?title=Comparison_of_C_Sharp_and_Java&oldid=483705520#Generator_methods
+
+## ref
+
+Wird ein Parameter einer Methode als `ref` gekennzeichnet, so erfolgt ein call by reference (statt dem normalen call by value, der mit einer Kopie des Wertes arbeitet). Der Typ der Variable bleibt ansonsten unverändert, d.h. ein value type wird nicht zu einem reference type gekapselt (ge*box*t).
+
+___________________________________
+
+# Interfaces
+
+Interfaces enthalten Methodensignaturen, aber keine Attribute. Statt von einer abstrakten Klasse abzuleiten kann man Interfaces verwenden. Man leitet vom Interface ab und muss alle Methoden mit Sichtbarkeit `public` implementieren. Erben von mehreren Interfaces ist erlaubt.
+
+___________________________________
+
 # Quellen
+
+## Websites
+
+* Onlinereferenz von Microsoft
+
+	* http://msdn.microsoft.com/en-us/library/default.aspx
+
 
 * Vtable
 
 	* de.wikipedia.org/w/index.php?title=Tabelle_virtueller_Methoden&stableid=99390919
 
-Literatur
+## Literatur
 
 * A. Troelsen, _Pro C# 2010 and the .NET 4 Platform_, Apress, **2010**
 

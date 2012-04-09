@@ -122,6 +122,17 @@ ___________________________________
 
 Interfaces enthalten Methodensignaturen, aber keine Attribute. Statt von einer abstrakten Klasse abzuleiten kann man Interfaces verwenden. Man leitet vom Interface ab und muss alle Methoden mit Sichtbarkeit `public` implementieren. Erben von mehreren Interfaces ist erlaubt.
 
+## Beispiel
+
+	http://www.codeproject.com/Articles/18743/Interfaces-in-C-For-Beginners
+
+Ab _P9.cs_ wird es interessant:
+Man kann ein Objekt instantiieren, welches ein Interface erfüllt. Der Containertyp ist also der des Interfaces. Es stehen dann nur die Methoden zur Verfügung, die im Objekt und dem Containertyp zur Verfügung stehen. Wenn weitere Interfaces eingebunden werden stehen diese nicht zur Verfügung (wie in _P11.cs_), außer man wählt einen anderen Container.
+
+Bis auf die Mehrfachvererbung sollte sich eine abstrakte Basisklasse genau so verwenden lassen: der Container legt die zur Verfügung stehenden Methoden fest, der Typ zur Laufzeit (Schlüsselwort new) legt das Verhalten dieser Methoden fest. (--> siehe vtable)
+
+`P16.cs` zeigt, dass auch Interfaces von Interfaces erben können.
+
 ___________________________________
 
 # Quellen

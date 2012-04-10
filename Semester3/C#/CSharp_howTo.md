@@ -116,6 +116,14 @@ ist wichtig im Zusammenhang mit Iteratoren. An der Stelle des Aufrufs von `yield
 
 Wird ein Parameter einer Methode als `ref` gekennzeichnet, so erfolgt ein call by reference (statt dem normalen call by value, der mit einer Kopie des Wertes arbeitet). Der Typ der Variable bleibt ansonsten unverändert, d.h. ein value type wird nicht zu einem reference type gekapselt (ge*box*t).
 
+## Abstrakten Typen
+
+Unter anderem können Attribute und Methoden als `virtual` oder `abstract` gekennzeichnet werden. Ersteres bedeutet dabei, dass eine Implementation vorliegt, im zweiten Falle fehlt diese vollständig. Es muss aber eine Implementation geben, spätestens wenn der Mitgliedstyp geerbt wird ist diese mit --> `override` nachzutragen.
+
+### override
+
+Geerbte Methoden (u. andere Mitgliedstypen) können mit `override` vor der Signatur überschrieben werden. Im Fall von mit `virtual` erstellten Mitgliedern ist dies optional, `abstract` macht das Überschreiben Pflicht. 
+
 ___________________________________
 
 # Interfaces

@@ -124,6 +124,53 @@ Unter anderem können Attribute und Methoden als `virtual` oder `abstract` geken
 
 Geerbte Methoden (u. andere Mitgliedstypen) können mit `override` vor der Signatur überschrieben werden. Im Fall von mit `virtual` erstellten Mitgliedern ist dies optional, `abstract` macht das Überschreiben Pflicht. 
 
+## using
+
+Um Resourcen nach der Verwendung wieder freizugeben kann man eine einzelne Anweisung oder einen Block (d.h. den Bereich zwischen zwei geschweiften Klammern) an eine `using`-Anweisung anhängen.
+Die Resource wird in runden Klammern deklariert und initialisiert.
+
+	using (TextWriter tw = new File.Create("Beispiel.txt")) {
+		[...]
+	}
+
+	// ab hier ist tw gelöscht und dessen Resourcen sind freigegeben
+
+
+___________________________________
+
+# Extension Methods
+
+Man schreibt in einer statischen Klasse eine statische Methode. Ein Parameter sei ein Objekt eines anderen Typs (hier MyClass). Dies lautet soweit wie folgt.
+
+	private class MyClass {
+		int k;
+		public MyClass(int _k) k = _k;
+	}
+
+	public static class psc{
+		public static void resetIntK(MyClass mc) {
+			mc.K = 0;
+		}
+	}
+
+	public static void main() {
+		MyClass mc = new MyClass(5); // wir nehmen an, dass k = 5 gesetzt
+		psc.resetIntK(mc);
+	}
+
+Man die wie folgt die Klasse MyClass um die Methode resetIntK erweitern: Mit dem Schlüsselwort `this` vor `MyClass mc` wird die Klasse MyClass erweitert,
+
+	public static class psc{
+		public static void resetIntK(this MyClass mc) {
+			mc.K = 0;
+		}
+	}
+
+	public static void main() {
+		MyClass mc = new MyClass(5); // wir nehmen an, dass k = 5 gesetzt
+		mc.resetIntK();
+	}
+
 ___________________________________
 
 # Interfaces
@@ -162,4 +209,4 @@ ___________________________________
 
 * D. Solis, _Illustrated C#_, Apress, **2010**
 
-	* "illustrated" bezieht sich auf die Speichernutzung
+	* "illustrated" bezieht sich vor allem auf die Speichernutzung

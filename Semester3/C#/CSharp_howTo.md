@@ -52,7 +52,7 @@ ___________________________________
 
 Mit der Zuweisung
 
-	int? i = k as int;
+	int? i = k as int?;
 
 wird sichergestellt, dass keine `Exception` geworfen wird,
 falls `k` inkompatibel mit dem cast nach `int` ist.
@@ -189,6 +189,38 @@ Man kann ein Objekt instantiieren, welches ein Interface erfüllt. Der Container
 Bis auf die Mehrfachvererbung sollte sich eine abstrakte Basisklasse genau so verwenden lassen: der Container legt die zur Verfügung stehenden Methoden fest, der Typ zur Laufzeit (Schlüsselwort new) legt das Verhalten dieser Methoden fest. (--> siehe vtable)
 
 `P16.cs` zeigt, dass auch Interfaces von Interfaces erben können.
+
+___________________________________
+
+# Remoting
+
+## Ansätze
+
+* MBR - Marshal by reference
+
+Anfragen kommen über das Netzwerk an das Objekt auf dem Server.
+
+* MBV - Marshal by value
+
+Das Objekt über das Netzwerk an den Client gesendet um dort eine Kopie zu erstellen. Die Anfragen vom Client gehen an die lokale Kopie.
+
+## Verbindungen
+
+* HTTP
+
+	* Es wird XML/Text übertragen.
+
+		* Vorteil: Firewalls stören selten
+
+* TCP
+
+	* Es werden Binärdaten übertragen.
+
+		* Vorteil: kleineres Transfervolumen
+
+In Sonderfall der Kommunikation zwischen einem lokal laufenden Server- und Clientprozess werden zwei unterschiedliche Ports auf der Maschine benötigt. Ein einzelner Port kann nicht gleichzeitig zum Senden und Empfangen genutzt werden.
+
+
 
 ___________________________________
 

@@ -92,6 +92,15 @@ dar, in dem ein (expliziter) cast aufgerufen wird.
 
 Werden mehrere Catch-Blöcke angelegt, so sollte zunächst zuerst versucht werden, einen spezialisierten Typ von Fehler abzufangen. Nach außen hin können die Catch-Abfragen allgemeiner werden, sodass das Programm stabil bleibt, aber der Fehler möglicht genau identifizierbar wird.
 
+## Finally
+
+Unabhängig davon, ob der try- oder catch-block zu ende gelaufen wurde,
+wird dannach, falls vorhanden, der finally-Block ausgeführt.
+
+## Durchsuchen des Aufrufers nach passendem Catch-Block
+
+Wenn in einer Methode kein passendes Catch gefunden wird, wird der call stack abgelaufen um einen passenden Catch-Block zu finden. Enthält ein Aufrufer einen passenden Block so wird zunächst noch aus jedem auf der Suche durchlaufenen Try-Catch-Finally-Konstrukt der Finally-Block ausgeführt. Erst dann wird an der (Fund-)Stelle des Aufrufers der passende Catch-Block auch ausgeführt.
+
 ___________________________________
 
 # .NET-Framework

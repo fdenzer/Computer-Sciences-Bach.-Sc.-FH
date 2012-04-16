@@ -42,13 +42,23 @@ Beim Aufruf einer Funktion zur Laufzeit wird diejenige Funktion aufgerufen, welc
 
 ___________________________________
 
-# Nullable und Fehlerbehandlung
+# Behandlung von Ausnahmezuständen
+
+## Exceptions
+
+Es gibt unterschiedliche Fehler, die  zur Laufzeit auftreten können. Sie leiten sich entweder von System.SystemException oder System.ApplicationException ab.
+
+## as-Keyword und nullable
+
+### nullable
+
+Werttypen können normalerweise nicht null enthalten. Mit einem am Typ angehängten Fragezeichen kann diese Möglichkeit hinzugefügt werden.
 
 	int? i;
 
 `i` kann `null` sein, da das Suffix `?` angehängt wurde.
 
-## as-Keyword
+### as-Operator
 
 Mit der Zuweisung
 
@@ -79,6 +89,8 @@ dar, in dem ein (expliziter) cast aufgerufen wird.
 		errorWriter.WriteLine(inCaEx.Message);
 		i = 0;
 	}
+
+Werden mehrere Catch-Blöcke angelegt, so sollte zunächst zuerst versucht werden, einen spezialisierten Typ von Fehler abzufangen. Nach außen hin können die Catch-Abfragen allgemeiner werden, sodass das Programm stabil bleibt, aber der Fehler möglicht genau identifizierbar wird.
 
 ___________________________________
 
@@ -247,7 +259,45 @@ Das Objekt über das Netzwerk an den Client gesendet um dort eine Kopie zu erste
 
 In Sonderfall der Kommunikation zwischen einem lokal laufenden Server- und Clientprozess werden zwei unterschiedliche Ports auf der Maschine benötigt. Ein einzelner Port kann nicht gleichzeitig zum Senden und Empfangen genutzt werden.
 
+___________________________________
 
+# Assemblies
+
+## Assembly aus mit genau Datei
+
+1. Manifest
+
+	* Besteht zum einen aus aus der Identität, basierend auf
+		
+		* Assembly-Namen (vollständig, beinhaltet somit den Datei-Namen (simple Name, ohne Dateiendung)
+
+		* vierstellige Versionsnummer
+
+		* Kulturinformation (2-5 Zeichen, z.B. en-US oder de-DE)
+
+		* öffentlicher Schlüssel (128bit)
+
+	* und weiterhin aus einer Liste aller Dateien der Assembly,
+
+	* Liste der Referenzen auf andere Assemblies,
+
+	* und einer Karte, wo (d.h. in welcher Assembly) welche Typen gefunden werden können
+
+2. Typ-Metadaten
+
+3. CIL
+
+	* Intermediate Language Code
+
+4. Optional können Resourcen wie Übersetzungen und Bilder folgen
+
+## mehrere Dateien
+
+In zusätzlichen, sekundären Modulen findet man die jeweiligen Typ-Metadaten und den CL-Code.
+
+## Stark und schwach benannte Assemblies
+
+Fehlt die Signatur handelt es sich um eine unsichere Assembly. Sichere Assemblies können nur auf andere Sichere zugreifen.
 
 ___________________________________
 

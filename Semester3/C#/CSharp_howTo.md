@@ -94,9 +94,15 @@ ___________________________________
 
 ## Collections
 
+# HashSet
+
+Ein Hashset enthält, wie eine Liste, Elemente eines generisch angegebenen Typs. Ein HashSet<string> speichert Text. Ein Vorteil gegenüber einer Liste ist, dass Einträge nur einmal vorkommen, Duplikate also nicht aufgenommen werden.
+
 # Dictionary
 
-*							***ToDo***
+Möchte man Elemente eines Arrays statt über aufeinanderfolgende Ganzzahlen über beliebige Schlüsselobjekte (-wörter oder Werte wie verteilt liegende Ganzzahlen) kann man ein Dictionary verwenden.
+
+Schlüssel müssen eindeutig sein, d.h. sie zeigen auf nur ein Element und es gibt jeden Schlüssel nur einmal. Elemente für verschiedene Schlüssel dürfen jedoch gleich sein.
 
 ___________________________________
 
@@ -137,6 +143,27 @@ Die Resource wird in runden Klammern deklariert und initialisiert.
 
 	// ab hier ist tw gelöscht und dessen Resourcen sind freigegeben
 
+___________________________________
+
+# Anonyme Methode
+
+Auch lambda expression, in anderem Kontext/anderen Sprachen oft Anonyme Funktion genannt.
+
+Wenn man eine Funktion beim Zuweisen definert und sich folglich nirgendwo eine Deklaration findet spricht man von einer Anonymen Funktion.
+
+Es gibt zwei Schreibweisen, zum einen
+
+* als "Rückgabevariable => Zuweisung", z.b.
+
+		double foo = x => Math.Sin(x);
+
+wobei man keine Typen für x angeben muss. Zum anderen
+
+* in längerer Schreibweise
+
+		double foo = delegate(double x) { return Math.Sin(x) }
+
+wobei jetzt auch `var foo` erlaubt wäre, da x nun eindeutig impliziert ist.
 
 ___________________________________
 

@@ -42,17 +42,27 @@ Beim Aufruf einer Funktion zur Laufzeit wird diejenige Funktion aufgerufen, welc
 
 ___________________________________
 
-# Nullable und Fehlerbehandlung
+# Behandlung von Ausnahmezuständen
+
+## Exceptions
+
+Es gibt unterschiedliche Fehler, die  zur Laufzeit auftreten können. Sie leiten sich entweder von System.SystemException oder System.ApplicationException ab.
+
+## as-Keyword und nullable
+
+### nullable
+
+Werttypen können normalerweise nicht null enthalten. Mit einem am Typ angehängten Fragezeichen kann diese Möglichkeit hinzugefügt werden.
 
 	int? i;
 
 `i` kann `null` sein, da das Suffix `?` angehängt wurde.
 
-## as-Keyword
+### as-Operator
 
 Mit der Zuweisung
 
-	int? i = k as int;
+	int? i = k as int?;
 
 wird sichergestellt, dass keine `Exception` geworfen wird,
 falls `k` inkompatibel mit dem cast nach `int` ist.
@@ -80,6 +90,17 @@ dar, in dem ein (expliziter) cast aufgerufen wird.
 		i = 0;
 	}
 
+Werden mehrere Catch-Blöcke angelegt, so sollte zunächst zuerst versucht werden, einen spezialisierten Typ von Fehler abzufangen. Nach außen hin können die Catch-Abfragen allgemeiner werden, sodass das Programm stabil bleibt, aber der Fehler möglicht genau identifizierbar wird.
+
+## Finally
+
+Unabhängig davon, ob der try- oder catch-block zu ende gelaufen wurde,
+wird dannach, falls vorhanden, der finally-Block ausgeführt.
+
+## Durchsuchen des Aufrufers nach passendem Catch-Block
+
+Wenn in einer Methode kein passendes Catch gefunden wird, wird der call stack abgelaufen um einen passenden Catch-Block zu finden. Enthält ein Aufrufer einen passenden Block so wird zunächst noch aus jedem auf der Suche durchlaufenen Try-Catch-Finally-Konstrukt der Finally-Block ausgeführt. Erst dann wird an der (Fund-)Stelle des Aufrufers der passende Catch-Block auch ausgeführt.
+
 ___________________________________
 
 # .NET-Framework
@@ -94,9 +115,15 @@ ___________________________________
 
 ## Collections
 
+# HashSet
+
+Ein Hashset enthält, wie eine Liste, Elemente eines generisch angegebenen Typs. Ein HashSet<string> speichert Text. Ein Vorteil gegenüber einer Liste ist, dass Einträge nur einmal vorkommen, Duplikate also nicht aufgenommen werden.
+
 # Dictionary
 
-*							***ToDo***
+Möchte man Elemente eines Arrays statt über aufeinanderfolgende Ganzzahlen über beliebige Schlüsselobjekte (-wörter oder Werte wie verteilt liegende Ganzzahlen) kann man ein Dictionary verwenden.
+
+Schlüssel müssen eindeutig sein, d.h. sie zeigen auf nur ein Element und es gibt jeden Schlüssel nur einmal. Elemente für verschiedene Schlüssel dürfen jedoch gleich sein.
 
 ___________________________________
 
@@ -137,6 +164,27 @@ Die Resource wird in runden Klammern deklariert und initialisiert.
 
 	// ab hier ist tw gelöscht und dessen Resourcen sind freigegeben
 
+___________________________________
+
+# Anonyme Methode
+
+Auch lambda expression, in anderem Kontext/anderen Sprachen oft Anonyme Funktion genannt.
+
+Wenn man eine Funktion beim Zuweisen definert und sich folglich nirgendwo eine Deklaration findet spricht man von einer Anonymen Funktion.
+
+Es gibt zwei Schreibweisen, zum einen
+
+* als "Rückgabevariable => Zuweisung", z.b.
+
+		double foo = x => Math.Sin(x);
+
+wobei man keine Typen für x angeben muss. Zum anderen
+
+* in längerer Schreibweise
+
+		double foo = delegate(double x) { return Math.Sin(x) }
+
+wobei jetzt auch `var foo` erlaubt wäre, da x nun eindeutig impliziert ist.
 
 ___________________________________
 
@@ -189,6 +237,76 @@ Man kann ein Objekt instantiieren, welches ein Interface erfüllt. Der Container
 Bis auf die Mehrfachvererbung sollte sich eine abstrakte Basisklasse genau so verwenden lassen: der Container legt die zur Verfügung stehenden Methoden fest, der Typ zur Laufzeit (Schlüsselwort new) legt das Verhalten dieser Methoden fest. (--> siehe vtable)
 
 `P16.cs` zeigt, dass auch Interfaces von Interfaces erben können.
+
+___________________________________
+
+# Remoting
+
+## Ansätze
+
+* MBR - Marshal by reference
+
+Anfragen kommen über das Netzwerk an das Objekt auf dem Server.
+
+* MBV - Marshal by value
+
+Das Objekt über das Netzwerk an den Client gesendet um dort eine Kopie zu erstellen. Die Anfragen vom Client gehen an die lokale Kopie.
+
+## Verbindungen
+
+* HTTP
+
+	* Es wird XML/Text übertragen.
+
+		* Vorteil: Firewalls stören selten
+
+* TCP
+
+	* Es werden Binärdaten übertragen.
+
+		* Vorteil: kleineres Transfervolumen
+
+In Sonderfall der Kommunikation zwischen einem lokal laufenden Server- und Clientprozess werden zwei unterschiedliche Ports auf der Maschine benötigt. Ein einzelner Port kann nicht gleichzeitig zum Senden und Empfangen genutzt werden.
+
+___________________________________
+
+# Assemblies
+
+## Assembly aus mit genau Datei
+
+1. Manifest
+
+	* Besteht zum einen aus aus der Identität, basierend auf
+		
+		* Assembly-Namen (vollständig, beinhaltet somit den Datei-Namen (simple Name, ohne Dateiendung)
+
+		* vierstellige Versionsnummer
+
+		* Kulturinformation (2-5 Zeichen, z.B. en-US oder de-DE)
+
+		* öffentlicher Schlüssel (128bit)
+
+	* und weiterhin aus einer Liste aller Dateien der Assembly,
+
+	* Liste der Referenzen auf andere Assemblies,
+
+	* und einer Karte, wo (d.h. in welcher Assembly) welche Typen gefunden werden können
+
+2. Typ-Metadaten
+
+3. CIL
+
+	* Intermediate Language Code
+
+4. Optional können Resourcen wie Übersetzungen und Bilder folgen
+
+## mehrere Dateien
+
+In zusätzlichen, sekundären Modulen findet man die jeweiligen Typ-Metadaten und den CL-Code.
+
+## Stark und schwach benannte Assemblies
+
+Fehlt die Signatur handelt es sich um eine unsichere Assembly. Sichere Assemblies können nur auf andere Sichere zugreifen.
 
 ___________________________________
 

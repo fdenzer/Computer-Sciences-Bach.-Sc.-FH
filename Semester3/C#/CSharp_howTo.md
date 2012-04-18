@@ -310,6 +310,39 @@ Fehlt die Signatur handelt es sich um eine unsichere Assembly. Sichere Assemblie
 
 ___________________________________
 
+# Enum
+
+Eine Aufzählung ordnet (in aufsteigenden Reihenfolge) Ganzzahlen ein Alias zu.
+
+Wird keine Zuweisung angegeben wird vom letzten Element um jeweils eins weiter hochgezählt. Folgende Schreibweisen sind also identisch:
+
+	enum lieblings_wochentage {
+		Montag = 1,
+		Dienstag = 2,
+		Samstag = 6,
+		Sonntag = 7
+	}
+
+	enum lieblings_wochentage {
+		Montag,
+		Dienstag,
+		Mittwoch,
+		Samstag = 6,
+		Sonntag
+	}
+
+___________________________________
+
+# Structs
+
+* werden mit new initialisiert
+
+	* sind aber dennoch Werttypen: die Attribute liegen auf dem Stapel
+
+* eigentlich sind Werttypen wie int in .NET als struct implementiert
+
+___________________________________
+
 # Quellen
 
 ## Websites

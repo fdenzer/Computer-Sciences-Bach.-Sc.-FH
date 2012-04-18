@@ -145,3 +145,141 @@ Token Ring
 		* Zielhost kippt vorhandenes erstes Bit
 
 			* bei erfolgreichem lesen wird auch das zweite Bit gekippt
+
+_________________________________________
+
+# ARPA 1969
+
+## 1.1.1983
+
+Big bang: neues Protokoll für das Internet (kein NCP mehr)
+
+_________________________________________
+
+# Layer 2 - Datalink
+
+* MAC-Addresse
+
+	48 oder 64 bit breit
+
+* Frame Relay
+
+	10 bit (0-1023)
+
+* oder Telefonnumer (internationaler Rufnummernplan)
+
+__________________________________________________
+
+# Layer 3
+
+32 bit stehen zur Verfügung
+
+* Class A
+
+	* Fangen mit null an, es folgen 7 + (31-8) bit
+
+	* Wenige große Netze (128 mal 16.777 Mio. Einträge)
+
+	* Maske: 127.255.255.255
+
+* Class B
+
+	* Fangen mit 10 an. 16 k Netze mit jeweils 66 K IPs
+
+	* Maske: 191.255.255.255
+
+* Class C
+
+	* Fängt mit 110 an
+
+	* Maske: 223.255.255.255
+
+2 Millionen Netze mit jeweils 256 IPs 
+
+* Class D
+
+	* 1110, Multicast Address, Raum 4.3 Mrd. von Addressen
+
+	* Viele Listener auf eine Quelle
+
+	* Maske: 239.255.255.255
+
+* Class E
+
+	* 1111, reserved for future use, ebenfalls 4.3 G
+
+	* Maske: 255.255.255.254
+
+__________________________________________
+
+# 0.0.0.0
+
+Absendeaddresse, nie Ziel
+
+Nur beim Systemstart
+
+Anmeldung: 0.0.0.0 sagt bitte gibt mir eine IP
+
+	This host
+
+# 0.0.X.Y
+
+	Host on this network
+
+# 1111111111111111
+
+Limited Broadcast im lokalen Netz
+
+Nur Ziel, nie Quelladdresse
+
+_____________________________________________
+
+# TCP/IP
+
+Pro Netzwerkadapter eine IP-Addresse
+
+Unterschied Host/Gateway
+
+Gateway transportiert traffic für dritte. Hosts nicht, auch wenn sie multi homed (mehrere Netzwerkadapter) sind.
+
+.1 bis 254 sind verfügbar, 0 und 255 ist das gesamte Netzwerk als Sender bzw. Empfänger.
+
+# Dreickeck aus Gateways
+
+Bei vollständiger Vermaschung ist auch ein Netzwerk ausreichen,
+statt zwischen jedem Pärchen ein Netzwerk aufzubauen.
+
+# Subnetting
+
+Host ID wird gesplittet in Subnet und kürzere Host IDs.
+
+Class C kann beispielsweise 4:4 oder 5:3 bit gesplittet werden.
+
+Subnetting wird über Masken realisiert. RFC-Konform wäre die Einsen
+beliebig zu verteilen. De facto wird immer von links mit Einsen aufgefüllt.
+
+Die gesammte Net ID muss immer überschrieben werden.
+
+* Class A
+
+	* 255.0.0.0
+
+	* in Präfixschreibweise /8
+
+* B
+
+	* 255.255.0.0 bzw. /16
+
+* C
+
+	* 255.255.255.0 /24
+
+* D
+
+	* 255.255.255.
+
+		* für 4:4 split: .240 oder /28 
+
+		* für 5:3 split: .248 oder /29
+	
+		* für 7:1 split: .252 oder /30

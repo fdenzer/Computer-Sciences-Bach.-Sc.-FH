@@ -310,6 +310,98 @@ Fehlt die Signatur handelt es sich um eine unsichere Assembly. Sichere Assemblie
 
 ___________________________________
 
+# Enum
+
+Eine Aufzählung ordnet (in aufsteigenden Reihenfolge) Ganzzahlen ein Alias zu.
+
+Wird keine Zuweisung angegeben wird vom letzten Element um jeweils eins weiter hochgezählt. Folgende Schreibweisen sind also identisch:
+
+	enum lieblings_wochentage {
+		Montag = 1,
+		Dienstag = 2,
+		Samstag = 6,
+		Sonntag = 7
+	}
+
+	enum lieblings_wochentage {
+		Montag,
+		Dienstag,
+		Mittwoch,
+		Samstag = 6,
+		Sonntag
+	}
+
+___________________________________
+
+# Structs
+
+* werden mit new initialisiert
+
+	* sind aber dennoch Werttypen: die Attribute liegen auf dem Stapel
+
+* eigentlich sind Werttypen wie int in .NET als struct implementiert
+
+___________________________________
+
+# Parameter Arrays in der Methodensignatur
+
+* sind, wenn vorhanden, immer das letzte Argument in der Argumentenliste
+
+* werden mit params vor dem Array-Typ definiert
+
+	void Foo(params string[] args) {
+		[...]
+	}
+
+* Eine Ausnahme stellt Main(string[] argv) dar, wobei argv[0] der Name der kompilierten Datei ist.
+
+	static void Main(string[] argv) {
+		[...]
+	}
+
+___________________________________
+
+# Arrays
+
+## Gestaffelte Arrays
+Arrays von Arrays,
+eines nach dem anderen initalisieren:
+
+	int[][] fortytwo = int[2][];
+	fortytwo[0] = int[20];
+	fortytwo[1] = int[22];
+
+Es gibt hier insgesammt drei Arrays.
+
+## Rechteckige Arrays
+
+	int[,] zweihundersechzigPlusEinsPlaetze = new int[26,10];
+
+Der 'plus eine' Platz enthält die Attribute und Methoden des Arrays.
+Im vorherigen, gestaffelten Beispiel, gab es drei Referenzen mit Speicherplätzen für solche Array-(Meta-)Informationen
+
+## Kombiniert
+
+Die Arrays in Arrays können natürlich wiederum rechteckige Arrays sein
+
+	int[][,] fortythree = int[2][];
+	fortytwo[0] = int[5,5];
+	fortytwo[1] = int[9,2];
+
+IDisposable
+GC zum trotz:
+Dispose() statt Destruktor garantiert schnelle freigabe
+
+IEnumerator/IEnumerable
+Enumerator hat: MoveNext, Current, Reset
+Enumerator<T> hat zusätzliche Dispose
+
+
+Marshal By Value ist der Standard für alle nicht von
+MarshalByRefObject abgeleiteten Klassen
+
+___________________________________
+
 # Quellen
 
 ## Websites

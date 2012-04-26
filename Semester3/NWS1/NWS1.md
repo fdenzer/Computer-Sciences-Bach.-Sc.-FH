@@ -282,4 +282,67 @@ Die gesammte Net ID muss immer überschrieben werden.
 
 		* für 5:3 split: .248 oder /29
 	
-		* für 7:1 split: .252 oder /30
+		* für 6:2 split: .252 oder /30. Dank broadcast und 0 gibt es nur zwei freie IPs --> Punkt-zu-Punkt-Verbindung
+
+## Masken und IP-Aufteilung
+
+/29 kann nur bei 0,8,16, ... beginnen
+
+/28 könnte nur bei 0,16,32, ... beginnen
+
+## RFC 1918
+
+* 10.0.0.0-10.255.255.255 (10/8 prefix)
+
+	einzelner Class A Block
+
+* 172.16.0.0 - 172.31.255.255 (175.16/12 prefix)
+
+	* 16 Class B Netze
+
+* 192.168.0.0 - 192.168.255.255 (192.168/16 prefix)
+
+	* 256 Class C Netze
+
+# Zusammenfassung
+
+0.0.0.0/8	this network
+10.0.0.0/8	private-use network
+127.0.0.0/8	loopback
+169.254.0.0/16	link lokal - z.B. bei fehlendem DHCP-Server unter Windows.
+172.160.0.0/12	
+192.0.2.0/24	Test-NET1 Documentation
+192.88.99.0/24	6to4 Relay Anycast
+192.168.0.0/16	private-use network
+198.18.0.0/15	2 Class B Blocks - Benchmark testing
+198.51.100.0/24	Test-NET2 Documentation
+224.0.0.0/4
+240.0.0.0/4
+
+__________________________________________________
+
+# Supernetting
+
+Der Netzteil wird gesplitted (statt dem Host-Teil)
+
+Sub- und Supernetting kombiniert:
+
+# Classless interdomain routing - CIDR
+
+___________________________________________________
+
+# Praktikum
+
+143.93.246.0/27 + 247.0/27 können zu 246.0/28 zusammengelegt werden, da wir bei geradem subnetz losgehen
+
+Weiterhin:
+
+180.0/22 --> Basisadresse muss durch vier teilbar sein.
+
+___________________________________________________
+
+# RIPE NCC
+
+FH Worms - Status: Assigned PI - provider independend
+
+Assigned PA - providerspezifisch

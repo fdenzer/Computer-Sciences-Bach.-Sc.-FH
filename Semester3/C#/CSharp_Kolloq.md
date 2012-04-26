@@ -25,7 +25,7 @@ Enthält Methoden, die somit im heap liegen.
 Heap wird von 0 aufwärts befüllt.
 Der Stack läuft ihm entgegen. Er fängt am Ende an und wird absteigend befüllt.
 
-Im Heap liegt ein Codesegment. Dort befinden sich alle u.a. Methoden.
+Im Heap liegt das Codesegment. Dort befinden sich alle u.a. Methoden.
 Auf dem Stack befinden sich Variablen, auch solche, die von Methoden
 angelegt werden.
 
@@ -48,6 +48,7 @@ zu
 	Int32(referenz_auf_i, 5)
 
 Dies kann erfolgen, da der Aufruf von i.Int32(5) gleichbedeutend ist mit this.Int32(5) und der this-Zeiger auf das eigene Objekt zeigt.
+
 
 # Nichtstatische Methoden
 

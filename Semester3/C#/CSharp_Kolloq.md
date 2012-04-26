@@ -35,7 +35,7 @@ angelegt werden.
 
 legt einen (32 oder 64 bit je nach Architektur) Speicherplatz für einen Zeiger an.
 
-	i = Int32(1);
+	i = new Int32(1);
 
 legt in mehreren Schritten ein Objekt im Heap an.
 

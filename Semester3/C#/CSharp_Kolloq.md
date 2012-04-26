@@ -1,3 +1,21 @@
+# Trennung von Deklaration und Definition
+
+	MeineKlasse obj;
+
+	obj = new MeineKlasse();
+
+Im ersten Schritt wird im Stack der Speicherplatz für einen Zeiger
+festgelegt. Bei 32-Bit-Systemen sind dies dementsprechend 4 Byte.
+
+In der zweiten Zeile wird im Heap der Speicherplatz für die Variablen
+des Objekts (und ein wenig mehr Speicher) reserviert. Dannach wird
+der Konstruktor aufgerufen. Methoden liegen hingegeben unabhängig von der akutellen Objektanzahl genau einmal im Codesegment.
+
+# Codesegment
+
+Enthält Methoden, die somit im heap liegen.
+
+
 # Aufbau des Speichers
 
 	FF...					0
@@ -30,11 +48,6 @@ zu
 	Int32(referenz_auf_i, 5)
 
 Dies kann erfolgen, da der Aufruf von i.Int32(5) gleichbedeutend ist mit this.Int32(5) und der this-Zeiger auf das eigene Objekt zeigt.
-
-
-# Codesegment
-
-Enthält Methoden die somit im RAM liegen.
 
 # Nichtstatische Methoden
 

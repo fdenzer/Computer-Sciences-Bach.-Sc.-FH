@@ -1,3 +1,21 @@
+# Trennung von Deklaration und Definition
+
+	MeineKlasse obj;
+
+	obj = new MeineKlasse();
+
+Im ersten Schritt wird im Stack der Speicherplatz für einen Zeiger
+festgelegt. Bei 32-Bit-Systemen sind dies dementsprechend 4 Byte.
+
+In der zweiten Zeile wird im Heap der Speicherplatz für die Variablen
+des Objekts (und ein wenig mehr Speicher) reserviert. Dannach wird
+der Konstruktor aufgerufen. Methoden liegen hingegeben unabhängig von der akutellen Objektanzahl genau einmal im Codesegment.
+
+# Codesegment
+
+Enthält Methoden, die somit im heap liegen.
+
+
 # Aufbau des Speichers
 
 	FF...					0
@@ -17,7 +35,7 @@ angelegt werden.
 
 legt einen (32 oder 64 bit je nach Architektur) Speicherplatz für einen Zeiger an.
 
-	i = Int32(1);
+	i = new Int32(1);
 
 legt in mehreren Schritten ein Objekt im Heap an.
 

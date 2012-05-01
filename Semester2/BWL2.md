@@ -86,6 +86,30 @@ Vertauscht bei Aktivkonten gegenüber Passivkonten.
 	Bank			|	
 	Forderung		|	
 
+
+* Vermögen gliedert sich in
+
+	* Anlage-V.
+
+	* Umlauf-V.
+
+	* ARAP (Aktiver Rechnungsabgrenzungsposten)
+
+* Kapital gliedert sich in
+
+	* Grundkapital
+
+	* Freie Rücklagen
+
+	* Gesetzliche Rücklagen
+
+	* Rückstellungen (z.B. Betriebsrenten)
+
+	* Fremdkapital
+
+	* ...
+
+
 ## Beispiel
 
 	Bankkonto
@@ -224,14 +248,14 @@ Zinsen kommen nicht aus dem Betriebszweck. Man spricht von neutralen Erträgen.
 		-----------------------------------
 		S				|	H
 		--------------	|	---------------
-		N		y	|	N		 y
+		N		y		|	N		 y
 
 
 					Handkasse
 		-----------------------------------
 		S				|	H
 		--------------	|	---------------
-		N		y	|	N		 y
+		N		y		|	N		 y
 
 
 
@@ -245,3 +269,185 @@ __________________________________________________________
 # Imparitätsprinzip
 
 Erwartete Verluste müssen ausgewiesen werden.
+
+__________________________________________________________
+
+
+# Übung 1
+
+200.000 EUR, davon Netto 80.000 EUR Zugewinn nach Abzug der 12 * mtl. 10.000 EUR.
+
+	A					 BILANZ					P
+	------------------------+----------------------------------------
+							|
+	Grundstücke		420.000	|	Grundstücke					1.200.000
+							|
+	Beb. "		  2.382.690	|	Langfr. Verbindlichkeiten	1.180.290
+							|
+	BGA				 732800	|								  380.000
+	(Betr.+Gesch.-Ausstattung)
+							|
+	Besitzwechsel	 22.400	|	Lieferantenverb.			1.909.640
+							|
+	Konten			784.325	|	Schuldwechsel				1.431.795
+					226.428	|
+					 34.200 |	Bankverb.						2.480
+							|
+	Vorräte			 14.806	|	EK	ist gleich A-P			2.290.730
+							|
+	Bargeld		  3.692.755	|
+	------------------------+----------------------------------------
+				  8.394.935									8.394.935
+
+Nicht direkt zurückzahlbare Beträge sollten langfristig finanziert sein.
+Lieferantenverbindlichkeiten sollten >= Vorräte sein.
+
+Reinvermögen	: 	Differenz zum Vorjahr 	-49.880
+Privatentnahme	:							120.000
+Zu versteuern	: 							 80.120
+
+Private Einlage :							119.880
+
+__________________________________________________
+
+# System der Rechnungslegung
+
+Inventur
+Inventarliste
+Eröffnungsbilanz
+Auflösen der Bilanz in Konten
+Verbuchung der Geschäftsvorfälle
+Abschluss der Konten
+Schlussbilanz
+
+Verbuchung zwischen Aktivkonten: Aktivtausch
+Passivtausch analog
+
+	A					  BILANZ						P
+	-----------------------------------------------------
+	Aktivtausche			|	Passivtausch
+
+1. Kunde zahlt offene Rechnungen
+
+2. Umwandlung Verb. L+L in langfr. Verb.
+
+3. Rückzahlung offene Rechnungen (Bank-, Verb.- ) -> Bilanzverkürzung
+
+4. Aufnahme eines Darlehns --> Bilanzverlängerung
+
+__________________________________________________
+
+# Übung 2
+
+1. Warenbestand Kasse 				  580
+
+2. Kunde zahlt -> Forderung Bank 	  875 (Forderungen sinken entsprechend)
+
+3. Langfr. Verbindlichkeit an Bank	2.250
+
+4. Verb. L+L an Bank				  580
+
+5. Kasse an BGA						  290
+
+6. Bank an Forderungen				  320
+
+7. Bank an Eigenkapital				  200 (Geldquelle: Gewinn)
+
+8. Forderung an Waren				  790
+
+9. Verb. L+L an langfr. Verb.		  700
+
+10. BGA an Bank						  830
+
+11. Verb. L+L an Bank				  780
+
+12. Verb. L+L an Post-Bank			  380
+
+13. Kasse an Warenbestand			  370
+
+14. Kasse an BGA					  490
+
+15. Bank an EK						  
+
+
+	Soll BGA Haben
+	 8.600		  290
+	   830
+			  	8.650	<-- hinzugefügt: 9.430-290
+	------------------
+	 9.430		9.430
+
+	Soll Waren Haben
+	11.800		  790
+	   580		  370
+			   11.200	<-- hinzugefügt: 12.380-790-370
+	------------------
+	12.380	   12.380
+
+	Soll Forderung L+L Haben
+	 5.900		  875
+	   790		  320
+			    4.495	<-- hinzugefügt
+	------------------
+	 6.690		1.195
+
+	Soll Kasse Haben
+	 1.200		  580
+	   290
+	   370
+	   490
+			    1.770	<-- hinzugefügt 2.350-580
+	------------------
+	 2.350		2.350
+	   
+	Soll Postbank Haben
+	   880		  380	
+	   320
+			      820	<-- hinzugefügt
+	------------------
+	 1.200		1.200
+
+	Soll Bank Haben
+	10.500		2.250
+	   875		  580
+	   200		  830
+	 3.400		  780
+			   10.535	<-- hinzugefügt: 14.975-3.440
+	------------------
+	14.975	   14.975
+
+	Soll Langfristige Verb. Haben
+	 2.250		7.500
+				  700
+	 5.950		   		<-- hinzugefügt
+	------------------
+	 8.200		8.200
+
+	Soll Verb. L+L Haben
+	   580		4.800
+	   700
+	   780
+	   380
+	 2.360		    	<-- hinzugefügt
+	------------------
+	 4.800		4.800
+
+	Soll EK Haben
+				  200
+				3.400
+	------------------
+				3.600
+
+_____________________________________________
+
+# Geldwerter Vorteil
+
+100 EUR Warenwert werden privat entnommen. Der Verkaufswert
+von 200 EUR wird abgezogen. Der Kauf ist nicht MwSt.-pflichtig,
+es wird aber der Geldwerte Vorteil als Einkommen gerechnet.
+
+Beispiel Autohersteller: Mitarbeiter bekommen Rabatt, verkaufen
+nach einem Jahr den Wagen weiter. Die Differenz ist heutzutage Einkommensteuer-pflichtig.
+
+_____________________________________________
+

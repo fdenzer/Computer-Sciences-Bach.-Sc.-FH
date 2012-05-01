@@ -307,17 +307,22 @@ Die gesammte Net ID muss immer überschrieben werden.
 # Zusammenfassung
 
 0.0.0.0/8	this network
-10.0.0.0/8	private-use network
+10.0.0.0/8	private-use networks
 127.0.0.0/8	loopback
 169.254.0.0/16	link lokal - z.B. bei fehlendem DHCP-Server unter Windows.
-172.160.0.0/12	
+172.160.0.0/12	private-use networks
 192.0.2.0/24	Test-NET1 Documentation
 192.88.99.0/24	6to4 Relay Anycast
-192.168.0.0/16	private-use network
+192.168.0.0/16	private-use networks
 198.18.0.0/15	2 Class B Blocks - Benchmark testing
 198.51.100.0/24	Test-NET2 Documentation
-224.0.0.0/4
-240.0.0.0/4
+224.0.0.0/4	multicast
+240.0.0.0/4	reserved for future use
+255.255.255.255	limited broadcast
+
+## Lokaler/limited Broadcast
+
+endet an gateways. router und switches lassen ihn passieren.
 
 __________________________________________________
 
@@ -325,9 +330,9 @@ __________________________________________________
 
 Der Netzteil wird gesplitted (statt dem Host-Teil)
 
-Sub- und Supernetting kombiniert:
-
 # Classless interdomain routing - CIDR
+
+Sub- und Supernetting kombiniert
 
 ___________________________________________________
 
@@ -346,3 +351,100 @@ ___________________________________________________
 FH Worms - Status: Assigned PI - provider independend
 
 Assigned PA - providerspezifisch
+
+___________________________________________________
+
+# Wdh.
+
+127.x.y.z localhost
+
+Multihomed hosts leiten keinen fremden Traffic weiter.
+
+Subnetting: Class B --> 256 Class-C-Netzwerke
+Subnetz 255 ist eher unproblematisch, Subnet 0 hingeben teilw. reserviert
+je nach Endgerät gibt es also Probleme.
+
+NAT
+
+98%ige Lösung, größtes Manko: überträgt keine verschlüsselten Daten.
+
+___________________________________________________
+
+# Mapping
+
+Drei Verfahren
+
+* Manuell gepflegte Liste
+
+	* bei X25 oder ATM notwendig
+
+	* MAC-Adresse wird durch IP-Adresse ersetzt
+
+* ARP
+
+	reverse ARP: IP-Addresse für bekannte MAC nachsehen
+
+* 1. Hardware Type | 2. Protocol Type
+
+	1.1. HLEN
+
+	1.2. PLEN Protocol len
+
+	2.1. Operation
+
+* Sender Hardware Address_{0-3}
+
+	* Sender Hardware Address_{4-5}
+	
+	* Sender IP Address_{0-1}
+
+	* Sender IP Address_{2-3}
+
+	* Target Hardware Address_{0-1}
+
+* Target Hardware Address_{2-5} (bei reverse ARP leer)
+
+* Target IP Address_{2-5} (bei ARP leer)
+
+
+# MAC-Addresse
+
+bia: Burn in address ist physisch mitgegebene Addresse
+
+# IP Encapsulation
+
+* Head: Dest+Source MAC, je 6 byte
+
+* Body: 
+
+	* 2 Byte für Type/Length, Unterscheidung:
+
+		* 0x5DE = maximale Länge (1500_dez) d.h. bei >0x600 handelt es sich um Typen
+	
+	* Type 0x800 (2 Byte)
+
+		* IP Datagramm (46-1500 Byte)
+
+		* 2+46 Byte sind Mindestlänge wg. Kollisionen.
+
+	* Type 0x806 (2 Byte)
+
+		* ARP request/reply (28 Byte)
+
+		* PADding (18 Byte)
+
+	* Type 0x806 (2 Byte)
+
+		* RARP request/reply, PAD(28+18)
+
+* Tail: CRC 4 bytes
+
+# RFC 1042
+
+Statt Typ (bei Ethernet II) kommt zunächst Length, erst nach 8 Byte folgt der Typ.
+
+2 Byte Length, dann 1, 1, 1, 3 Byte org code, dann erst Typinformation
+
+38-1492 Byte Daten
+
+MTUs können bei 10GBit-Verbindungen höher eingestellt werden.

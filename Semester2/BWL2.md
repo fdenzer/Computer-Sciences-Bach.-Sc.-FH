@@ -451,3 +451,258 @@ nach einem Jahr den Wagen weiter. Die Differenz ist heutzutage Einkommensteuer-p
 
 _____________________________________________
 
+# Großhandel
+
+1. Einkauf von Waren 200EUR+19% Vorsteuer an Kasse 238EUR
+
+2. 
+
+	1. 
+
+	2. 
+
+## Konten
+
+					Waren
+		S									H
+		1				200		2.1		  200
+		-------------------------------------
+
+
+					Kasse
+		S									H
+		Anfangsbestand	238		1		  238
+		2.2				357		EB		  595	<-- EB hinzugefügt
+		-------------------------------------
+
+
+					Gewinn+Verlust
+		S	Aufwand				Ertrag		H
+		2.1				200		2.2		  300
+		-------------------------------------
+
+
+					Vorsteuer
+		S									H
+		1				 38		MwSt.	   38
+		-------------------------------------
+
+
+						MwSt.
+		S									H
+		Vorsteuer		38		2.2		   57
+		?				19
+		-------------------------------------
+
+
+						EK
+		S									H
+		EB			338			AB		  238
+							Gewinn		  100
+		-------------------------------------
+
+
+## Abschlussbilanz
+
+		Bilanz
+		A									P
+		Kasse		357			EK		  338
+								MwSt.	   19
+		-------------------------------------
+
+________________________________
+
+# Übung 3
+
+1. Verb. an Bank			1800
+
+2. Warenbestand an Kasse	2600
+
+3. BGA an Bank				 920
+
+4. Verb. L+L an Postbank	 640
+
+5. Bank an EK				1160
+
+6. Waren an Verb.			3860
+
+7. Verb. an Bank			6000
+
+8. Unbeb. Grundstück
+	an Bank				   49000
+	an Kasse				5000
+
+9. Kasse an BGA				5000
+
+10. Postbank				 280
+	Bank					 600
+	an Forderungen			 880
+
+11. Kasse an Bank			 200
+
+12. Bank an langfr. Verb.	6000
+
+13. BGA/Anlage an Verb.	   32000
+
+14. Verb.					1890
+	an Bank					1600
+	an Kasse				 290
+
+15. Verb. an Bank			 340
+
+## Weitere Geschäftsvorfälle
+
+1. Umbuchung von Postbank an Bank	1000
+
+2. Rückzahlung Kredit
+
+3. Kurzfristige Verbindlichkeiten:
+	Umschuldung 6000 und
+	Rückzahlung 1000
+
+4. Kauf BGA
+
+5. Kunde begleicht Rechnung
+
+6. Kauf Grundstück gegen Hypothek
+
+7. Verkauf BGA
+
+8. Rückzahlung langfr. Verb.
+
+9. Zieleinkauf von Waren
+
+10. Rückzahlung Verb. L+L
+
+11. Zielverkauf von BGA
+
+12. Umbuchung
+
+13. Bareinkauf von Waren
+
+14. Privatentnahme: EK an Bank
+
+15. Umbuchung
+
+________________________________
+
+# Übung 4
+
+1. Bank an Privat					20000
+
+2. Privat an Bank					 2800
+
+3. Privat an Bank					 2500
+
+4. Privat an Bank					  640
+
+5. Unbeb. Grundstücke an Privat	   160000
+
+6. Privat an Bank					36500
+
+				Unbeb. Grundstücke
+		S								H
+		5			160000
+		---------------------------------
+
+	
+					Privat
+		S								H
+		2		  2800		1		20000
+		3		  2500		5	   160000
+		4		   640
+		6		 36500
+		Saldo	137560
+		---------------------------------
+
+	
+					Bank
+		S								H
+		AB		30000		2		 2800
+		1		20000		3		 2500
+							4		  640
+							6		36500
+							EB	   277560
+		---------------------------------
+			Summe 320000
+
+
+					EK
+		S								H
+		EB	   437560		AB	   300000
+							Privat 137560
+		---------------------------------
+			Summe 437560
+
+
+					Eröffnungsbilanz
+		A								P
+		Bank   300000		EK	   300000
+		---------------------------------
+
+				Schlussbilanz
+		A								P
+		UG	   160000		EK	   437560
+		Bank   277560		
+		---------------------------------
+
+
+___________________________________
+
+
+# Inventur
+
+Zwar ist er Gewinn aus Verkäufen bekannt, doch die Verkaufte Stückzahl
+kann unbekannt sein. 
+Bei einer Inventur wird die Stückzahl gezählt. Der berechnet Stückpreis ist ein Durchschnittswert.
+
+## Inventurdifferenz
+
+Entspricht Aufwand Preisdifferenz
+
+### Kaptiel 3.2, Seite 18
+
+		A			Eröffnungsbilanz			P
+					100						  260
+		Kasse		160
+		-----------------------------------------
+
+
+		S			Warenbestand				H
+		AB			100		2.1				  130
+		1			160		EB				  130
+		-----------------------------------------
+
+
+		S			Aufwand Inventurdiff.		H
+													<-- mit Inv.diff.
+		-----------------------------------------
+
+
+		S			  Kasse						H
+		AB			160		1				  160
+		2.2			200		EB				  200
+		-----------------------------------------
+
+
+		S		Aufwand Lieferung(Warenverkauf)	H
+		2.1			130		G+V				  130
+		-----------------------------------------
+
+
+		S			  G+V						H
+		Lief.			130		2.1			  200
+		Inventurdiff.	 65							<-- mit Inv.diff.
+		Gewinn		      5							<-- mit Inv.diff.
+		-----------------------------------------
+
+
+		S			EK							H
+								AB			  260
+		-----------------------------------------
+
+
+		A			Schlussbilanz				P
+		-----------------------------------------
+
+		

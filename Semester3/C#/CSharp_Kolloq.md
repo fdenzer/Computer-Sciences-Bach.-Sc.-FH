@@ -9,23 +9,20 @@ festgelegt. Bei 32-Bit-Systemen sind dies dementsprechend 4 Byte.
 
 In der zweiten Zeile wird im Heap der Speicherplatz für die Variablen
 des Objekts (und ein wenig mehr Speicher) reserviert. Dannach wird
-der Konstruktor aufgerufen. Methoden liegen hingegeben unabhängig von der akutellen Objektanzahl genau einmal im Codesegment.
-
-# Codesegment
-
-Enthält Methoden, die somit im heap liegen.
-
+der Konstruktor aufgerufen. Methoden liegen hingegeben unabhängig von der akutellen Objektanzahl genau einmal im Codesegment (s.u.).
 
 # Aufbau des Speichers
 
-	FF...					0
-	|__________|____________|
-		Stack		Heap
+	FF...							0
+	|__________|________|___________|
+		Stack	  Heap	  Codespace
 
 Heap wird von 0 aufwärts befüllt.
 Der Stack läuft ihm entgegen. Er fängt am Ende an und wird absteigend befüllt.
 
-Im Heap liegt das Codesegment. Dort befinden sich alle u.a. Methoden.
+# Codesegment
+
+Vor dem Heap liegt das Codesegment. Dort befinden sich alle u.a. Methoden.
 Auf dem Stack befinden sich Variablen, auch solche, die von Methoden
 angelegt werden.
 

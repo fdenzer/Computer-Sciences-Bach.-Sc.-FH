@@ -176,15 +176,15 @@ __________________________________________________
 
 * Class A
 
-	* Fangen mit null an, es folgen 7 + (31-8) bit
+	* Fangen mit null an, es folgen 7 + 24 bit
 
 	* Wenige große Netze (128 mal 16.777 Mio. Einträge)
 
-	* Maske: 127.255.255.255
+	* Maske: 127.255.255.255 (entspricht /8 in Prefix-Notation)
 
 * Class B
 
-	* Fangen mit 10 an. 16 k Netze mit jeweils 66 K IPs
+	* Fangen mit 10 an. (2^14 =) 16.384 Netze mit jeweils (2^16 =) 65.536 IPs
 
 	* Maske: 191.255.255.255
 
@@ -192,9 +192,9 @@ __________________________________________________
 
 	* Fängt mit 110 an
 
-	* Maske: 223.255.255.255
+	* 2 Millionen Netze mit jeweils 256 IPs (21 zu 8 freie Bits)
 
-2 Millionen Netze mit jeweils 256 IPs 
+	* Maske: 223.255.255.255
 
 * Class D
 
@@ -202,13 +202,13 @@ __________________________________________________
 
 	* Viele Listener auf eine Quelle
 
-	* Maske: 239.255.255.255
+	* Endaddresse: 239.255.255.255
 
 * Class E
 
 	* 1111, reserved for future use, ebenfalls 4.3 G
 
-	* Maske: 255.255.255.254
+	* Endaddresse: 255.255.255.254 bzw. 255
 
 __________________________________________
 

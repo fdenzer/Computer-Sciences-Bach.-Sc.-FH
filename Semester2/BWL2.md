@@ -705,4 +705,139 @@ Entspricht Aufwand Preisdifferenz
 		A			Schlussbilanz				P
 		-----------------------------------------
 
-		
+__________________________________________		
+
+# Aufgabe 5
+
+Falsch:
+
+Bestand Waren 20.000 EUR
+an Verbindlichkeiten L+L 20.000
+
+Verbindlichkeiten 4.000
+an Ertrag Rabatt(Lieferung)	4.000
+
+Richtig:
+
+1. Bestand Waren 20.000 EUR
+	an Verbindlichkeiten L+L 20.000
+
+2. Aufwand an Verb.	   800
+
+3. Verbindlichkeiten 5.500
+	an Warenbestand	 5.000
+	an Vorsteuer	   500
+
+4. Forderung 44.000
+	an Erlös	40.000
+	an MwSt.	 4.000
+
+5. Erlös 4.000
+	MwSt.  400
+	an Forderung 4.400
+
+6. Warenbestand   20.000
+	Vorsteuer(10%) 2.000
+	an Verb. L+L  22.000
+
+7. Forderung 2250
+	an Erlös	2.250
+
+8. Erlös 1.300
+	an Forderung 1.300
+
+# 5.2
+
+Aufwand Gewährter Bonus 10.500
+		an Forderung
+		oder an Bank
+		'Kto. 42 00 00' --> Einkreissystem, selbe Bezeichung kommt in Finanzbuchhaltung wieder
+
+Finanzbuchhaltung
+
+Aufwand Personal (Gehälter)
+	an Verbindlichkeiten
+
+Kostenrechnung
+
+Kostenart 'Kto. 42 00 00'
+
+Personalkosten kontiert auf Kostenstelle
+
+## 1234
+Personalmodul
+Gehaltsabrechnung
+Personalstamm
+
+* Controlling nutzt Kostenstelle
+
+	* Plankosten <-> Ist-Kosten
+
+	* Planleistung <-> Ist-Leistung
+
+__________________________________
+
+# Beschaffung / FIBU
+
+1. Bestellaufforderung
+
+Position 1: Lager / FIBU: - (nichts)
+
+oder
+
+Position 2: Kostenstelle
+
+2. Bestellung
+
+Pos. 1:	 - / FiBu: -
+
+Pos. 2:
+
+3. Wareneingang
+
+Pos. 1: Lager	/ Bestand Waren an Wareneingang-Rechnungseingang-Verrechnungskonto (WE/RE) ^= Rückstellung
+
+Pos. 2:  / Aufwand Waren an WE/RE-Kto.
+
+4. Rechungseingang
+
+Pos.1:	/ WE/RE-Konto Vorsteuer an Verbindlichkeiten = offener Posten Kreditor (Lieferant)
+
+Pos.2:
+
+5. Zahlungslauf
+
+- / offener Posten, Verbindlichkeit an Bankverrechnungskonto
+
+6. - / Einlesen elektronischer Kontoauszug
+Bankverrechnungskonto an Bank
+
+________________________
+
+Produktion / FIBU
+
+1. Fertigungsauftrag anlegen
+
+2. Materialentnahme / Aufwand Material an Bestand Material
+
+3. Berechnung Ware in Arbeit (Istkosten im Fertigungsauftrag) / Bestand Ware in Arbeit an Bestandsveränderung Ware in Arbeit = Ertragskonto
+
+4. Produktion Erzeugnisse, Ablieferung an Lager / Bestand Erzeugnisse an **B**estands**v**eränderung Erzeugnisse
+
+5. Keine Waren mehr in Arbeit / BV **W**are **i**n **A**rbeit an Bestand WIA
+
+6. Abweichungen / Aufwand **Pr**eis**d**ifferenz an Ertrag PRD
+
+____________________________________
+
+Vertrieb / FiBu
+
+1. Kundenauftrag anlegen	/ -
+
+2. Lieferung an Kunden	/ Aufwand Lieferung an Bestand Erzeugnisse Betrag: Liefermenge mal kalkulierte Herstellkosten/ST. (Controlling)
+
+3. Faktura / Forderung an Erlös (Hauptbuch) an Erlös, an MwSt.
+				offener Posten Debitor (Kunde)
+
+4. - / Kontoauszug einlesen, Bank an offener Posten --> Forderung
+

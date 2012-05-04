@@ -13,9 +13,9 @@ der Konstruktor aufgerufen. Methoden liegen hingegeben unabhängig von der akute
 
 # Aufbau des Speichers
 
-	FF...							0
-	|__________|________|___________|
-		Stack	  Heap	  Codespace
+	FF...										  0
+	|__________|________|_____________|___________|
+		Stack	  Heap	  Datensegment	Codespace
 
 Heap wird von 0 aufwärts befüllt.
 Der Stack läuft ihm entgegen. Er fängt am Ende an und wird absteigend befüllt.
@@ -25,6 +25,10 @@ Der Stack läuft ihm entgegen. Er fängt am Ende an und wird absteigend befüllt
 Vor dem Heap liegt das Codesegment. Dort befinden sich alle u.a. Methoden.
 Auf dem Stack befinden sich Variablen, auch solche, die von Methoden
 angelegt werden.
+
+# Datensegment
+
+Das Datensegment enthält Konstanten, also (u.a.) verwendete Literale.
 
 # Objektdeklaration und -instantiierung
 

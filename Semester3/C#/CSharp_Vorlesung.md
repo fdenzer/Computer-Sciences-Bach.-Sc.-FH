@@ -252,3 +252,162 @@ Mehrfachvererbung kann nur von abstrakten Klassen erfolgen. Die Funktionalitäte
 
 `inline`-Funktionen sind nichtmehr nötig/erlaubt. inline bedeutet, dass der Quellcode vom Compiler kopiert würde um sprünge usw. zu vermeiden.
 
+
+# Konstruktoren
+
+## Vererbung
+
+super() (Java) heißt in C# base()
+
+Mit this() kann ein Konstruktor einer abgeleiteten Klasse aufgerufen werden.
+
+## statischer Konstruktor
+
+Der statische Konstruktor hat keinen access modifier.
+
+## Ableitung und Vererbung
+
+### Beispiel mit Ableitungsschema A : B
+
+Ein Zeiger auf B kann auch auf ein Objekt vom Typ A zeigen.
+
+Für B wird im Heap Speicherplatz für Attribute Reserviert.
+Für ein Objekt vom Typ A wird dieser um die Attribute von A erweitert.
+
+# Desktruktor
+
+## IDisposable
+
+Zusätzlich zum garbage collector gibt es die Möglichkeit, über Dispose() Objekte zu entsorgen, die von IDisposable geerbt haben.
+
+Klassen, welche unmanaged ressources (außerhalb des Frameworks) nutzen können diese über Dispose() und Close() wieder freigeben.
+
+## Dekonstruktor
+
+Der GC ruft bei nicht benötigten Objekten nichtdeterministisch, also zu keinem festgelegten Zeitpunkt, den Dekonstruktor auf.
+
+## using-statement
+
+Am Ende eines using-blocks wird Dispose() aufgerufen
+
+		--> Nicht zu verwechseln mit den using directives <--
+
+________________________________________________
+
+# Virtuelle Methoden
+
+## C++
+
+Virtuelle Klassen werden in der Basisklasse mit virtual gekennzeichnet. 
+Rein virtuelle Methoden werden mit `= 0;` gekennzeichnet
+überschrieben wird ebenfalls mit dem Schlüsselwort virtual.
+
+## CSharp
+
+Virtual kann, muss aber nicht, überschrieben werden. Bei abstract ist das Überschreiben Pflicht.
+
+`virtual`-Methoden müssen mit override überschrieben werden.
+(In java wäre @override optional und eine Zeile zuvor zu nennen.)
+
+In virtuellen Methoden steht mit base(...) die Methode der Basisklasse zur Verfügung.
+
+### `new` in diesem Zusammenhang
+
+Mit dem Schlüsselwort new kann ein überdecken 
+
+### Vtable
+
+Zur Laufzeit können in der Tabelle virtueller Methoden die konkreten Ausprägungen gelesen werden.
+Der Compiler erzeugt noch vor den anderen Attributen einen Pointer auf die Vtable.
+
+## sealed
+
+Sealed-Klassen und -Methoden können nicht (weiter) beerbt werden.
+
+Die Vtable ist kürzer wenn man die Varianten nichtmehr hat, die abgeleitete Klassen bieten. Dies bietet einen Geschwindigkeitsvorteil zur Laufzeit.
+
+String (Sonderrolle verhält sich wie Werttyp) ist beispielsweise sealed.
+
+____________________________________________________
+
+# Interfaces
+
+Nomenklatur: Fangen mit `I` an
+`public abstract` ist implizit und wird meist nicht hingeschrieben.
+`virtual` und `public` dürfen nicht verwendet werden.
+Es darf Properties wie `decimal Saldo{ get;}` geben aber keine Attribute.
+
+Ein Interface ist ein Vertrag, den eine implementierende Klasse erfüllen muss.
+
+Ein Interface kann von anderen Interfaces erben.
+
+Abgeleitete (implementierende) Klassen können über Interface-Referenzen instantiiert werden. Explizite Casts sind jedoch nötig um alle Methoden zu erreichen, die nicht Teil des Interfaces sind.
+
+____________________________________________________________
+
+# Collections
+
+Alle Collections implementieren ICollection.
+
+## Vorraussetzungen
+
+* lesen/schreiben
+
+* resetten
+
+* weitergehen
+
+	* --> oft Aufgabe Reihenfolge festlegen: Sortierung
+
+* Ende erreicht?
+
+Genaue Voraussetzungen weiter unten (IEnumerable ...).
+
+## Arten von Collections
+
+* Allg./generische Collections
+	
+	* früher `object` (erfordert explizite Typecasts), heute generics
+	
+	* ArrayList, Stack, Queue
+
+* spezialisierte Collections
+
+	* für Strings oder verkettete Listen
+
+* bitverarbeitende Collections
+
+	* Speichern von Bit-Gruppen
+
+
+		interface IEnumerator {
+			object Current{get;}
+			bool MoveNext();
+			void Reset();
+		}
+
+		interface IEnumerable {
+			IEnumerator GetEnumerator();
+		}
+
+		interface ICollection : IEnumerable {
+			int Count{get}
+			bool isSynchronized{get;}	// true, wenn Zugriff synchronisiert
+			object SyncRoot{get;}
+			void CopyTo(Array target, int index);
+		}
+
+
+Weitere Interfaces
+
+IComparer	Vergleich als Grundlage für eine Sortierung
+
+IList
+
+IDictionary
+
+IDictionaryEnumerator
+
+
+__________________________________________________________
+

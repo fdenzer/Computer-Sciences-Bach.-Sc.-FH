@@ -1,40 +1,40 @@
 # Hub
 
-Aus Netzwerksicht nicht da. Dient nur als Signalverstärker.
+Aus Netzwerksicht nicht da. Dient nur als Signalverstrker.
 
 # Switch
 
 aka Transparent Bridges / Layer-2 Switches
 
 T.B.s legen eine Liste der MAC-Adressen an, um jedes Paket gezielt nur an
-die Empfänger zu senden.
+die Empfnger zu senden.
 
 Anforderungen an die Liste
 
 * lange genug, um alle MACs der Netzwerke zu speichern
 
-* schnelle Suchzeit, da für jedes einzelne Paket in der Tabelle der
+* schnelle Suchzeit, da fr jedes einzelne Paket in der Tabelle der
   Adressat herausgesucht werden muss
 
 ## cut through switch
 
-14 Byte bis destination MAC gelesen sind nur nötig. Da das Kollisionsfenster 64 byte lang ist kann noch eine Kollision stattfinden.
+14 Byte bis destination MAC gelesen sind nur ntig. Da das Kollisionsfenster 64 byte lang ist kann noch eine Kollision stattfinden.
 
 ## collision free switch
 
-Wartet entsprechend dem Minimum für 64 byte.
+Wartet entsprechend dem Minimum fr 64 byte.
 
 ## store and forward switch
 
-Wartet bis zum CRC am Nachrichtenende um das Paket zu überprüfen.
-Häufigste Switchart (an der FH).
+Wartet bis zum CRC am Nachrichtenende um das Paket zu berprfen.
+Hufigste Switchart (an der FH).
 
 Erlaubt als einziges, verschiedene Netzwerktypen zu mischen.
 Egal ob Full oder half duplex, egal ob 100 oder 1000 MBit.
 
 ______________
 
-Broadcasts gehen an _alle_ anderen Clients. Man nennt diesen Bereich Broadcastdomain. Für Broadcasts ist ein Switch durchlässig.
+Broadcasts gehen an _alle_ anderen Clients. Man nennt diesen Bereich Broadcastdomain. Fr Broadcasts ist ein Switch durchlssig.
 
 ## Collisiondomain
 
@@ -42,7 +42,7 @@ ______________
 
 # 10 GBit
 
-* es gibt nur full duplex über switch
+* es gibt nur full duplex ber switch
 
 64/66 B Kodierung --> viele Nutzdaten, wenig Takt
 
@@ -82,11 +82,11 @@ ______________
 
 **==> Spanning tree protocol**
 
-1. Root-Bridge durch Prioritätenwahl von Admin oder kleinste MAC-Adresse
+1. Root-Bridge durch Priorittenwahl von Admin oder kleinste MAC-Adresse
 
-2. Root port ist kürzeste Distanz zum Root Switch
+2. Root port ist krzeste Distanz zum Root Switch
 
-3. Designated Port ist kürzester Weg zurück
+3. Designated Port ist krzester Weg zurck
 
 4. alle anderen Ports werden geblockt --> loopfreie Topologie
 
@@ -108,9 +108,9 @@ physisch nicht, aber praktisch getrennte LANs
 
 # Satellitennetzwerk
 
-* nicht CSMA/CD wegen zu langer "minimaler" Paketlänge um Kollisionen vorzubeugen
+* nicht CSMA/CD wegen zu langer "minimaler" Paketlnge um Kollisionen vorzubeugen
 
-* kein Taktsignal für slotted Aloah. Außerdem ist der Nachbar nicht hörbar.
+* kein Taktsignal fr slotted Aloah. Auerdem ist der Nachbar nicht hrbar.
 
 * --> pure aloah, nur max. 18% Durchsatz
 
@@ -118,19 +118,19 @@ physisch nicht, aber praktisch getrennte LANs
 
 Token Ring
 
-* Übertragung
+* bertragung
 
-	* Sendet in eine Richtung. Empfängt man die eigene Nachricht ist sie einmal durchgelaufen und wird nichtmehr weitergeleitet.
+	* Sendet in eine Richtung. Empfngt man die eigene Nachricht ist sie einmal durchgelaufen und wird nichtmehr weitergeleitet.
 
-	* Token läuft rundum. Die Station, welche das Token hat, darf senden.
+	* Token luft rundum. Die Station, welche das Token hat, darf senden.
 
 		* besteht aus Startdelimiter, Zugriffssteuerung (Access Delimiter) und Enddelimiter
 
-* Angeschaltete Maschinen liefern 1 Bit Verzögerung
+* Angeschaltete Maschinen liefern 1 Bit Verzgerung
 
-* minimale Länge des Rings ist 24 Bit
+* minimale Lnge des Rings ist 24 Bit
 
-	* Monitorstation wird ausgewürfelt
+	* Monitorstation wird ausgewrfelt
 
 * Senden
 
@@ -152,7 +152,7 @@ _________________________________________
 
 ## 1.1.1983
 
-Big bang: neues Protokoll für das Internet (kein NCP mehr)
+Big bang: neues Protokoll fr das Internet (kein NCP mehr)
 
 _________________________________________
 
@@ -172,13 +172,13 @@ __________________________________________________
 
 # Layer 3
 
-32 bit stehen zur Verfügung
+32 bit stehen zur Verfgung
 
 * Class A
 
 	* Fangen mit null an, es folgen 7 + 24 bit
 
-	* Wenige große Netze (128 mal 16.777 Mio. Einträge)
+	* Wenige groe Netze (128 mal 16.777 Mio. Eintrge)
 
 	* Maske: 127.255.255.255 (entspricht /8 in Prefix-Notation)
 
@@ -190,7 +190,7 @@ __________________________________________________
 
 * Class C
 
-	* Fängt mit 110 an
+	* Fngt mit 110 an
 
 	* 2 Millionen Netze mit jeweils 256 IPs (21 zu 8 freie Bits)
 
@@ -240,31 +240,31 @@ Pro Netzwerkadapter eine IP-Addresse
 
 Unterschied Host/Gateway
 
-Gateway transportiert traffic für dritte. Hosts nicht, auch wenn sie multi homed (mehrere Netzwerkadapter) sind.
+Gateway transportiert traffic fr dritte. Hosts nicht, auch wenn sie multi homed (mehrere Netzwerkadapter) sind.
 
-.1 bis 254 sind verfügbar, 0 und 255 ist das gesamte Netzwerk als Sender bzw. Empfänger.
+.1 bis 254 sind verfgbar, 0 und 255 ist das gesamte Netzwerk als Sender bzw. Empfnger.
 
 # Dreickeck aus Gateways
 
-Bei vollständiger Vermaschung ist auch ein Netzwerk ausreichen,
-statt zwischen jedem Pärchen ein Netzwerk aufzubauen.
+Bei vollstndiger Vermaschung ist auch ein Netzwerk ausreichen,
+statt zwischen jedem Prchen ein Netzwerk aufzubauen.
 
 # Subnetting
 
-Host ID wird gesplittet in Subnet und kürzere Host IDs.
+Host ID wird gesplittet in Subnet und krzere Host IDs.
 
 Class C kann beispielsweise 4:4 oder 5:3 bit gesplittet werden.
 
-Subnetting wird über Masken realisiert. RFC-Konform wäre die Einsen
-beliebig zu verteilen. De facto wird immer von links mit Einsen aufgefüllt.
+Subnetting wird ber Masken realisiert. RFC-Konform wre die Einsen
+beliebig zu verteilen. De facto wird immer von links mit Einsen aufgefllt.
 
-Die gesammte Net ID muss immer überschrieben werden.
+Die gesammte Net ID muss immer berschrieben werden.
 
 * Class A
 
 	* 255.0.0.0
 
-	* in Präfixschreibweise /8
+	* in Prfixschreibweise /8
 
 * B
 
@@ -278,17 +278,17 @@ Die gesammte Net ID muss immer überschrieben werden.
 
 	* 255.255.255.
 
-		* für 4:4 split: .240 oder /28 
+		* fr 4:4 split: .240 oder /28 
 
-		* für 5:3 split: .248 oder /29
+		* fr 5:3 split: .248 oder /29
 	
-		* für 6:2 split: .252 oder /30. Dank broadcast und 0 gibt es nur zwei freie IPs --> Punkt-zu-Punkt-Verbindung
+		* fr 6:2 split: .252 oder /30. Dank broadcast und 0 gibt es nur zwei freie IPs --> Punkt-zu-Punkt-Verbindung
 
 ## Masken und IP-Aufteilung
 
 /29 kann nur bei 0,8,16, ... beginnen
 
-/28 könnte nur bei 0,16,32, ... beginnen
+/28 knnte nur bei 0,16,32, ... beginnen
 
 ## RFC 1918
 
@@ -338,7 +338,7 @@ ___________________________________________________
 
 # Praktikum
 
-143.93.246.0/27 + 247.0/27 können zu 246.0/28 zusammengelegt werden, da wir bei geradem subnetz losgehen
+143.93.246.0/27 + 247.0/27 knnen zu 246.0/28 zusammengelegt werden, da wir bei geradem subnetz losgehen
 
 Weiterhin:
 
@@ -362,11 +362,11 @@ Multihomed hosts leiten keinen fremden Traffic weiter.
 
 Subnetting: Class B --> 256 Class-C-Netzwerke
 Subnetz 255 ist eher unproblematisch, Subnet 0 hingeben teilw. reserviert
-je nach Endgerät gibt es also Probleme.
+je nach Endgert gibt es also Probleme.
 
 NAT
 
-98%ige Lösung, größtes Manko: überträgt keine verschlüsselten Daten.
+98%ige Lsung, grtes Manko: bertrgt keine verschlsselten Daten.
 
 ___________________________________________________
 
@@ -382,7 +382,7 @@ Drei Verfahren
 
 * ARP
 
-	reverse ARP: IP-Addresse für bekannte MAC nachsehen
+	reverse ARP: IP-Addresse fr bekannte MAC nachsehen
 
 * 1. Hardware Type | 2. Protocol Type
 
@@ -417,15 +417,15 @@ bia: Burn in address ist physisch mitgegebene Addresse
 
 * Body: 
 
-	* 2 Byte für Type/Length, Unterscheidung:
+	* 2 Byte fr Type/Length, Unterscheidung:
 
-		* 0x5DE = maximale Länge (1500_dez) d.h. bei >0x600 handelt es sich um Typen
+		* 0x5DE = maximale Lnge (1500_dez) d.h. bei >0x600 handelt es sich um Typen
 	
 	* Type 0x800 (2 Byte)
 
 		* IP Datagramm (46-1500 Byte)
 
-		* 2+46 Byte sind Mindestlänge wg. Kollisionen.
+		* 2+46 Byte sind Mindestlnge wg. Kollisionen.
 
 	* Type 0x806 (2 Byte)
 
@@ -441,10 +441,116 @@ bia: Burn in address ist physisch mitgegebene Addresse
 
 # RFC 1042
 
-Statt Typ (bei Ethernet II) kommt zunächst Length, erst nach 8 Byte folgt der Typ.
+Statt Typ (bei Ethernet II) kommt zunchst Length, erst nach 8 Byte folgt der Typ.
 
 2 Byte Length, dann 1, 1, 1, 3 Byte org code, dann erst Typinformation
 
 38-1492 Byte Daten
 
-MTUs können bei 10GBit-Verbindungen höher eingestellt werden.
+MTUs knnen bei 10GBit-Verbindungen hher eingestellt werden.
+
+________________________________________________________________
+
+65.536 Pakete pro 30 Sekunden sind ein Limit, dass bei Fragmentierung auftritt:
+Keine zwei Fragemente aus unterschiedlichen Paketen drfen dann die selbe ID haben.
+
+____________________________________________________________
+
+# Record Route Option
+
+HLen 4 bit, 0-15, jeweils ein Vollwort (4 bytes each) --> 60 Byte
+
+Platz fr Hops: nicht 256 --> 4 hin, 4 zurck
+
+`lgt im Gegensatz zu trace route nie`
+
+## Pointer
+
+IP-Adresse des Gateways im Zielnetz
+
+## Codes
+
+### ??
+
+* Code 7: copy bit nicht gesetzt
+
+### Internet Timestamp option
+
+* maximal 4 hops
+
+* Code 68: copy nicht gesetzt
+
+### Strict source and record route option
+
+* maximal 9 hops
+
+* Code 131: copy bit gesetzt
+
+G1->G2 MTU: 730
+G2->G3 MTU: 330
+
+
+		Host	ID	Anzahl Datenbytes	Laenge des IP-Paketes	F.Offset	MF
+
+		A	1985	940		978 (18 byte optionen)	0	0
+
+		G_1	"	688 = 8*86	726			0	1
+
+		G_1	"	252		290			86	0
+
+		G_2	"	288 = 36*8	326			0	1
+
+		G_2	"	288		326			36	1
+
+		G_2	"	112		150			72	1[sic]
+
+		G_2	"	252		290			86	0
+
+
+G2->G4 MTU: 198 (->G3) fr das eine Paket mit Offset 86
+
+
+		Host	ID	Anzahl Datenbytes	Laenge des IP-Paketes	F.Offset	MF
+
+		A	1985	940		978 (18 byte optionen)	0	0
+		
+		...
+
+		G_1	"	252		290			86	0
+
+		G_2	"	160 = 20*8	198			86	1
+
+		G_2	"	92		130			106	0
+
+______________________________________________________________________________________
+
+G1->G2 MTU: 730
+G2->G3 MTU: 430
+
+code 18 --> dont copy
+
+
+		Host	ID	Anzahl Datenbytes	Laenge des IP-Paketes	F.Offset	MF
+
+		A	4711	840		878 (18 byte optionen)	0	0
+
+		G_1	"	688 = 86*8	726 (18 byte optionen)	0	1
+
+		G_1	"	152 von 704(nocopy)	172 (0 byte optionen)	86	0
+
+		G_2	"	392 = 49*8	430 (18 byte optionen)	0	1
+
+		G_2	"	296 von 408(nocopy)	316 (0 byte optionen)	49	1
+
+		G_2	" 	152 von 408(nocopy)	172 (0 byte optionen)	86	0
+
+
+G2->G4 MTU: 218 (-> G3)
+
+		Host	ID	Anzahl Datenbytes	Laenge des IP-Paketes	F.Offset	MF
+
+		A	4711	840		878 (18 byte optionen)	0	0
+
+		G_1	"	688 = 86*8	726 (18 byte optionen)	0	1
+
+		G_1	"	152 von 176(nocopy)	172 (0 byte optionen)	86	0 --> luft durch MTU 218, alles bestens

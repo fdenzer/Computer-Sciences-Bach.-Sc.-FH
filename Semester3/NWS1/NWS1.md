@@ -554,3 +554,147 @@ G2->G4 MTU: 218 (-> G3)
 		G_1	"	688 = 86*8	726 (18 byte optionen)	0	1
 
 		G_1	"	152 von 176(nocopy)	172 (0 byte optionen)	86	0 --> luft durch MTU 218, alles bestens
+		
+		
+# Wiederhohlung
+
+D - Low delay
+T - Hight Throughput
+R - High Reliability (Verschlüsselung?)
+C - Low Cost
+
+DSCP findet an Netzwerk- und Administrationsgrenzen statt
+
+Network-Gateway = Router
+
+# IP-Routing
+
+Host in Netzwerk. Das Netzwerk kennt zwei Gateways.
+Der Host entscheidet, an welches Gateway er seine Pakete schickt.
+
+
+# Routing an Internet Datagram
+
+^ = bitweise und
+
+Es wird verglichen, ob QuellIP ^ Maske == ZielIP ^ Maske
+
+Im gleichen Netzwerk ist kein Routing notwendig.
+
+Im Falle QuellIP ^ Maske != ZielIP ^ Maske muss ein Gateway den Transfer
+übernehmen. Der Absender schaut in seine Routing-Table um das Gateway zu finden.
+Der Router hat eine Routing-Table mit (mindestens?) den verbundenen Netzen.
+
+Das Gateway ändert nichts am Paket, nur die MAC-Adresse ändert sich.
+
+## Beispiel 10.0.0.0 nach 40.0.0.0
+
+Alle Einträge, um nach 40.0.0.0 zu kommen müssen dem Gateway eins und jeweils allen Folgenden bekannt sein.
+
+D.h. es reicht nicht, wenn 40.0.0.0 nur dem ersten Gateway bekannt ist.
+
+_Next Hop_ enthält die Gateways, um zum _Net_ zu kommen.
+
+Realfall: Hin- und Rückwege sind nicht identisch.
+
+## Beispiel Hosts A bis D, Routing-Table A und C
+
+Lösung für das Problem jede Ziel-IP der Welt: default-Gateway, meist 0.0.0.0
+
+Gateways enthalten idealerweise keine default-gateways, da unbekannte Hosts zu einer Endlosschleife führen können.
+
+Altes Internet: default-free-router an der spitze, alle anderen Router haben hierarchisch einen näher daran liegende default-route.
+
+Bei gleichem Bereich in verschiedenen Subnetzen (erkennbar z.B. an unterschiedlichen Masken) nimmt der Router das kleinste Subnetz.
+Das spezifischste gewinnt also.
+
+# VSLM
+
+Subnetzmasken mit variabler Länge 
+
+## Klausuraufgabe
+
+/19 bedeutet bis +32.+255 da 8192/256 = 32 bzw. 2^(32-19-8 = 5) = 32
+
+173.0/24 bis 188.0/24 entspricht:
+173.0/24
+174.0/23 (durch zwei teilbar)
+176.0/21 (durch acht teilbar)
+184.0/22 (durch vier teilbar)
+188.0/24
+
+_______________________________________________________
+
+# IMCP
+
+ICMP-Protokollfeld-ID = 1
+
+Tunnel Encapsulation --> 4
+
+Checksum, die nicht über den Header, sondern den ganzen Rest geht,
+wird nur am Start erstellt und am Ziel ausgewertet.
+
+## Echo request
+
+Besteht aus
+
+* type 8
+
+* code 0
+
+* Checksum
+
+* identifier = ID/Nummer der Anfrage
+
+* sequence number
+
+	* Anzahl der Pakete
+
+	* dient dem feststellen von Verlust und Vertauschung
+
+* optional Data
+
+	* enthält Datenmüll zum auffüllen der Länge
+
+### Beispiel
+
+Daten 56 byte + ICMP-Header 8 byte
+IP-Header + Daten = 84 byte
+
+# Anmerkung
+
+Maximale Paket-Länge _mit_ Fragmentierung 2^16 = 65.536
+
+# ICMP
+
+## source quench
+
+Fehlermeldung bei zu wenig Bandbreite (auf einer Teilstrecke). Kommt aber oft nicht an, weil der Fehler in beide Richtungen den traffic beeinträchtigen kann
+
+## redirect
+
+Ein Paket wird von einem Gateway an anderes Gateway weitergeleitet und der Absender darüber mit dem redirect informiert.
+Die Routingtable des Absenders soll hiernach also erweitert werden.
+
+## time exceeded
+
+ttl = 0 erreicht oder fragmentation reassembly time exceeded
+
+
+# Virtuelle Gateways
+
+G' erhält IP' und MAC'
+
+# Folie 938
+
+Load sharing: je nach Ziel läuft die Verbindung über 3.0.0.0 oder 4.0.0.0
+
+## ping -r
+9 max-Sprünge
+60-20 = 40 byte, Kopfwort von 4 byte, es bleiben 9 Worte als Informationen über Sprünge. Verwendung eher im LAN, quasi nie im (globalen) Internet.
+
+## hingegen bei traceroute:
+TTL_start = 1, TTL++ bis zum Ziel bei jedem Sprung.
+Die ICMP-Time-Exceeded-Fehlermeldung enthält die Information, wo das Paket jeweils ist
+--> Absendeadresse der Fehlermeldung wird zurückgeliefert.
+Bei unsymetrischen Routen wird also evtl eine IP geliefert, die das Paket nicht empfangen hat.

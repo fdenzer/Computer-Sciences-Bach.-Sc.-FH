@@ -556,7 +556,7 @@ G2->G4 MTU: 218 (-> G3)
 		G_1	"	152 von 176(nocopy)	172 (0 byte optionen)	86	0 --> luft durch MTU 218, alles bestens
 		
 		
-# Wiederhohlung
+# Wiederholung
 
 D - Low delay
 T - Hight Throughput

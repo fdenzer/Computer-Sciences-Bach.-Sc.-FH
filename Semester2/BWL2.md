@@ -841,3 +841,114 @@ Vertrieb / FiBu
 
 4. - / Kontoauszug einlesen, Bank an offener Posten --> Forderung
 
+_________________________________--
+# Abschreibungen
+
+erlaubt:
+
+* lineare, degressive Abschreibung
+
+	* degressiv-2-fach heißt anfangs doppelter linearer Abschreibungsbetrag vom Restwert Anlage
+
+		* z.B. 10% linear --> vom Anfangswert 20%, 16%, (64%/5)=12,8%, 10,4%, geht in linear 8,16% p.a. für 5 Jahre über
+
+* außerordentliche Abschreibung
+
+	* Beschädigung der Anlage
+
+* Sonderabschreibung
+
+	* Form der Investitionsförderung seitens der Behörden Im 1. Jahr deutlich höherer Abschreibungsbetrag
+	mit Gegenbuchung auf Konto: Sonderposten mit Rücklageanteil (Passivposten, Fremdkapital, Verbindlichkeit)
+
+Zuschreibung bei Werterhöhung der Anlage bei werterhöhender Reparatur
+oder auch durch Anweisung der Behörden (Betriebsprüfung)
+
+# 6.2
+
+Anschaffungsjahr
+
+a. Anlagen an Verbindlichkeiten 200k 
+
+b. _A_bestzung _f_ür _A_bnutzung 180.000
+
+	an Wertberichtigung auf Anlagen	20.000
+	
+	an Sonderposten 160.000
+
+2. bis 10. Jahr
+
+	160k€/9 = 17,78 k€
+
+	Ertrag aus Auflösung Sonderposten
+
+	Aufwand für Abschreibung 20.-17.777,78 = 2.222,22 an Wertberichtigung 2.222,22€
+
+...
+
+
+		S	 	Anlage			H
+		AB 200k
+		
+		S	Aufwand Abschreibung		H
+		1. J. 180k		2.J.	   17.800
+		2. J.  20k		...
+		...
+
+		S	  Wertberichtigung		H
+					1.J.	   20.000
+					...
+					n.J.	   20.000
+
+
+		S	     Sonderposten		H
+		2. J. 17.778		1. J.	  160.000
+		
+		S	  Verbindlichkeiten		H
+						  200.000
+
+# Betriebsübersicht
+
+## Abschlussbuchung
+
+1. Nutzungsdauer 5 Jahre --> bisherige AfA: 8k€
+
+	a. AfA an Wertberichtigung
+
+	b. Wertberichtigung an Anlage: 10.000
+
+2. AfA an BGA: 5.000
+
+
+3. Forderung: 11.000, davon 10% / 1.000€ MWSt
+
+	Aufwand aus dem Abgang von Gegenständen des Anlagevermögens 2k€
+	an Anlagen 12k€
+	an MWSt. 1.000
+
+4. Aufwand gewährter Basis	20.000
+	MWSt.			 2.000
+
+5.
+
+6. Verbindlichkeiten L+L	11.000
+
+	an Vorsteuer		 1.000
+
+	Ertrag an gewährten
+	Bonus			10.000
+
+7. UE: Buchbestand 		32.000
+
+   Inventur:			38.000
+
+   Bs wurden für 6.000€ UE auf Lager produziert
+
+_____________________________________________________________________________
+		
+# KLAUSUR
+
+Übung 2 - Verbuchung erfolgsneutraler Geschäftsvorfälle
+
+Integrationstabelle Beschaffung
+

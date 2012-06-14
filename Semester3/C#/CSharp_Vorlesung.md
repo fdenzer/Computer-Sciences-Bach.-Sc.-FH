@@ -414,6 +414,7 @@ ______________________
 # yield
 
 yield return VALUE
+
 yield break; //steigt aus
 
 # Überladene Operatoren

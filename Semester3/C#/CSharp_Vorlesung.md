@@ -409,5 +409,177 @@ IDictionary
 IDictionaryEnumerator
 
 
-__________________________________________________________
+______________________
+
+# yield
+
+yield return VALUE
+yield break; //steigt aus
+
+# Überladene Operatoren
+
+## C++
+
+1. operator ist friend einer klasse
+
+2. nichtstatische Klassenfunktion wenn erster Parameter this-Pointer sein kann
+
+3. statische Methode
+
+4. globale Funktion
+
+## CSharp
+
+nur statische Methode
+
+## Nicht überladen werden dürfen
+
++=/*=... werden über +/* usw. implizit überladen
+
+Die logischen Operatoren && und || ergibt sich über true und false und den unären Operatoren &
+
+&= ist ebenfalls darüber definiert.
+
+Hiarchie (== Priorität) ist unveränderbar
+
+Die Stelligkeit (unär, binär, ternär) ist unveränderbar.
+
+### Parameter
+
+keine ref- und out-Parameter für Operatoren
+
+## Erlaubte direkte Überladung
+
+# Übersprungen
+
+Partielle Typen
+
+Nullbare Typen
+
+# Generics
+
+Formalparameter <T> wird bei der Deklaration und Initialisierung vom Aktualparameter ersetzt.
+
+## Constraints
+
+K is-a K, aber: OB eine has-a-Beziehung erfüllt ist, ist zur Compilezeit nicht klar.
+Lösung:
+
+		public class Map <K,V> where K: IComparable { ...
+
+nach dem Doppelpunkt kann folgen:
+
+		struct		Werttyp
+
+		class		Referenztyp
+
+		new		Muss einen Standardkonstruktor aufweisen. Letzte Beschränkung in einer Liste
+
+		U		Muss gleich der Klasse U sein oder daraus abgeleitet
+
+Im Gegensatz zu C++ gibt es für jede Art von Werttypen und für *alle* Referenztypen nur jeweils einen gemeinsamen (native) Codeblock.
+
+
+## defaults
+
+Es gilt
+
+default(Werttyp) == 0
+default(Referenztyo) == null
+
+______________________________________________________________
+
+# Delegates
+
+		MulticastDelegate : Delegate
+
+
+Mit += werden Delegates zu einer Variable (vom Typ, auch wenn man ihn nie angiebt?!) MulticastDelegate hinzugefügt.
+Der letzte return-Wert ist der einzige, der zu Tage kommt.
+
+	
+# Events
+
++= registriert Event-Handler. -= deregistriert diese.
+
+Publisher-Subscriber-Pattern
+
+Multicast-Liste
+
+____________________________________________________________________
+
+# WinForms
+
+Wdh. Komponente = Bibliothek, System.ComponentModel ist in Windows-Anwendungen vom VB2010 standardmäßig hinzugefügt.
+Data ist die alte Version von Linq zum Datenbankzugriff
+
+modale/nichtmodale Dialoge: bei ersterem wird der Dialog die Anwendung für die Weiterarbeit sperren, bis er beantwortet wurde.
+
+TabIndex legt die Reihenfolge der Elemente einer Anwendung fest.
+
+.Text="&Name"; sorgt dafür, dass Alt+N zum Zugriff auf das entsprechende Element dient.
+
+_____________________________________________________
+
+# C++
+
+		\#PRAGMA
+
+Anweisungen an den Compiler, meist Namen der Form __NAME
+
+# CSharp
+
+entsprechend genutzt werden können Attribute mit [ATTRIBUT] über Funktions- und Klassennamen. Sie übergeben Metainformationen.
+
+# Serialisierung
+
+# XML
+
+* Klasse muss public deklariert
+
+* Es muss einen Standardkonstruktor geben
+
+
+## Transparent Proxy
+
+### Parameter für Methoden
+
+Aktualparameter befinden sich im Stack.
+
+# Marshaling
+
+## by value
+
+standard
+
+## by reference
+
+erbt von MarshalByReference
+
+### lifetime-service - wie lange wartet der server auf Anfragen vor dem löschen des Objekts
+
+### Objekt-Aktivierung
+wann wird das objekt wirklich instatiiert? --> well known(server activated, standardkonstruktor) object vs client activated object (früher, zusätzliche Kommunikation für erst Konstruktor, dann jede Methode)
+
+Code zu client activated object
+
+		using System.Runtime.Remoting.UrlAttribute;
+		object[] attrib = {new UrlAttribute("htt://localhost:4711/myURI")};
+		Demo obj (Demo) Activator.CreateInstance(typeof(Demo), argument-array, attrib);
+
+#### Übersicht
+
+* MBR
+
+	* Well Known Object
+
+		* Single Call
+
+			* (als einziges MBR) ohne lifetime-Management
+
+		* Singleton
+
+	* CAO
+
+_______________________________________________________
 

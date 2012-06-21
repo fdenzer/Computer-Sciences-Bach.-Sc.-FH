@@ -946,9 +946,11 @@ b. _A_bestzung _f_ür _A_bnutzung 180.000
 
 _____________________________________________________________________________
 		
-# KLAUSUR
+# Altklausur
 
-Übung 2 - Verbuchung erfolgsneutraler Geschäftsvorfälle
+## Wichtige Themen
 
-Integrationstabelle Beschaffung
+* Übung 2 - Verbuchung erfolgsneutraler Geschäftsvorfälle
+
+* Integrationstabelle Beschaffung
 

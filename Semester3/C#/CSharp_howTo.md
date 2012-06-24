@@ -143,7 +143,7 @@ ist wichtig im Zusammenhang mit Iteratoren. An der Stelle des Aufrufs von `yield
 
 ## ref
 
-Wird ein Parameter einer Methode als `ref` gekennzeichnet, so erfolgt ein call by reference (statt dem normalen call by value, der mit einer Kopie des Wertes arbeitet). Der Typ der Variable bleibt ansonsten unverändert, d.h. ein value type wird nicht zu einem reference type gekapselt (ge*box*t).
+Wird ein Parameter einer Methode als `ref` gekennzeichnet, so erfolgt ein call by reference (statt dem normalen call by value, der mit einer Kopie des Wertes arbeitet). Der Typ der Variable bleibt ansonsten unverändert, d.h. ein value type wird nicht zu einem reference type gekapselt (ge_box_t).
 
 ## Abstrakten Typen
 

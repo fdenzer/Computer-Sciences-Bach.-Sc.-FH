@@ -377,7 +377,7 @@ Es gibt hier insgesammt drei Arrays.
 
 	int[,] zweihundersechzigPlusEinsPlaetze = new int[26,10];
 
-Der 'plus eine' Platz enthält die Attribute und Methoden des Arrays.
+Der 'plus eine' Platz enthält die Attribute und die Namen der Methoden des Arrays.
 Im vorherigen, gestaffelten Beispiel, gab es drei Referenzen mit Speicherplätzen für solche Array-(Meta-)Informationen
 
 ## Kombiniert

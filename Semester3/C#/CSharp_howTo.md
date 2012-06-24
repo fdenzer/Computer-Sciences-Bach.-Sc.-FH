@@ -18,9 +18,9 @@ ___________________________________
 
 * `sealed` bietet Geschwindigkeitsvorteile
 
-	* zur Laufzeit muss in keiner vtable nachgeschlagen werden
+	* zur Laufzeit müssen Methoden nicht in der vtable nachgeschlagen werden
 
-* Die Sicherheit steigt, da keine zusätzlichen, modifizierten Klassen Attribute benutzten dürfen.
+* Die Sicherheit steigt, da keine zusätzlichen, modifizierten Klassen versteckte Attribute benutzten dürfen.
 
 ## 2. Deklarativ statt imperativ
 

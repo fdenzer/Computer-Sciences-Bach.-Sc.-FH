@@ -208,7 +208,7 @@ Man schreibt in einer statischen Klasse eine statische Methode. Ein Parameter se
 		psc.resetIntK(mc);
 	}
 
-Man die wie folgt die Klasse MyClass um die Methode resetIntK erweitern: Mit dem Schlüsselwort `this` vor `MyClass mc` wird die Klasse MyClass erweitert,
+Man kann wie folgt die Klasse MyClass um die Methode resetIntK erweitern: Mit dem Schlüsselwort `this` vor `MyClass mc` wird die Klasse MyClass erweitert,
 
 	public static class psc{
 		public static void resetIntK(this MyClass mc) {

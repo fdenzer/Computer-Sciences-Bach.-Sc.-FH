@@ -276,21 +276,21 @@ ___________________________________
 
 1. Manifest
 
-	* Besteht zum einen aus aus der Identität, basierend auf
+* Besteht zum einen aus aus der Identität, basierend auf
 		
-		* Assembly-Namen (vollständig, beinhaltet somit den Datei-Namen (simple Name, ohne Dateiendung)
+	* Assembly-Namen (vollständig, beinhaltet somit den Datei-Namen (simple Name, ohne Dateiendung)
 
-		* vierstellige Versionsnummer
+	* vierstellige Versionsnummer
 
-		* Kulturinformation (2-5 Zeichen, z.B. en-US oder de-DE)
+	* Kulturinformation (2-5 Zeichen, z.B. en-US oder de-DE)
 
-		* öffentlicher Schlüssel (128bit)
+* öffentlicher Schlüssel (128bit)
 
-	* und weiterhin aus einer Liste aller Dateien der Assembly,
+* und weiterhin aus einer Liste aller Dateien der Assembly,
 
-	* Liste der Referenzen auf andere Assemblies,
+* Liste der Referenzen auf andere Assemblies,
 
-	* und einer Karte, wo (d.h. in welcher Assembly) welche Typen gefunden werden können
+* und einer Karte, wo (d.h. in welcher Assembly) welche Typen gefunden werden können
 
 2. Typ-Metadaten
 

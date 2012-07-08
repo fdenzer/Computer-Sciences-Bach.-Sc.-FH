@@ -2,6 +2,8 @@
 
 namespace Common
 {
+    public delegate double equation(double x);
+
     [Serializable]
     public struct Point
     {

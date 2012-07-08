@@ -9,9 +9,9 @@ namespace Server
 
         #region protected attributes
 
-        protected double segmentWidth, epsilon;
-        protected List<Point> zeros;
-        protected IEquation e;
+        private double segmentWidth, epsilon;
+        private List<Point> zeros;
+        private equation e;
 
         #endregion
 
@@ -39,12 +39,12 @@ namespace Server
 
         #region constructor(s)
 
-        public CalculateZeros(IEquation _e)
+        public CalculateZeros(equation _e)
         {
             segmentWidth = 0.01d;
             epsilon = 1E-15;
             zeros = new List<Point>();
-            this.e = _e;
+            e = _e;
         }
 
         #endregion
@@ -64,7 +64,7 @@ namespace Server
             for (x = lowerLimit; x <= upperLimit; x = lowerLimit + (k++) * segmentWidth)
             {
 
-                y = e.f(x);
+                y = e(x);
 
                 if (Math.Sign(y) == 0)
                 {
@@ -72,7 +72,7 @@ namespace Server
                     zeros.Add(Util.newPoint(x, y));
 
                 }
-                else if (Math.Sign(y) == -Math.Sign(e.f(x + segmentWidth)))
+                else if (Math.Sign(y) == -Math.Sign(e(x + segmentWidth)))
                 {
                     // start of interval bisection
                     Bisect(x, x + segmentWidth, localEpsilon);
@@ -86,14 +86,14 @@ namespace Server
             double middle;
 
             // do the if-part in interval containing zero
-            if (Math.Sign(e.f(lowerLimit)) == -Math.Sign(e.f(upperLimit)))
+            if (Math.Sign(e(lowerLimit)) == -Math.Sign(e(upperLimit)))
             {
 
                 // checks exit condition: x-values diverge little, making the segment small enough
                 middle = (lowerLimit + upperLimit) / 2.0d;
                 if ((upperLimit - lowerLimit) <= localEpsilon)
                 {
-                    zeros.Add(Util.newPoint(middle, e.f(middle)));
+                    zeros.Add(Util.newPoint(middle, e(middle)));
 
                 }
                 else

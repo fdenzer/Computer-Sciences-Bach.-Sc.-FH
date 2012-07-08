@@ -10,7 +10,8 @@ namespace Server
         public Point[] Calculate(IEquation e, double start, double end)
         {
             List<Point> results = new List<Point>();
-            CalculateZeros cs = new CalculateZeros(e);
+            equation ef = e.f;
+            CalculateZeros cs = new CalculateZeros(ef);
 
             cs.FindZerosInRange(start, end);
             results = cs.Zeros;

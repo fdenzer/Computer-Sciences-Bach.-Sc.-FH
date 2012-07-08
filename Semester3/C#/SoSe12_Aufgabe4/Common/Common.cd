@@ -35,5 +35,12 @@
       <FileName>Interfaces.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Delegate Name="Common.equation">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
   <Font Name="Tahoma" Size="8.4" />
 </ClassDiagram>

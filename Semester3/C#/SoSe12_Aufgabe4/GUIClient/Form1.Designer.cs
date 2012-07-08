@@ -50,7 +50,7 @@
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.chart.Series.Add(series2);
-            this.chart.Size = new System.Drawing.Size(358, 329);
+            this.chart.Size = new System.Drawing.Size(474, 329);
             this.chart.TabIndex = 0;
             this.chart.Text = "chart1";
             this.chart.Click += new System.EventHandler(this.chart1_Click);
@@ -61,9 +61,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.xy_values.FormattingEnabled = true;
-            this.xy_values.Location = new System.Drawing.Point(376, 12);
+            this.xy_values.Location = new System.Drawing.Point(492, 12);
             this.xy_values.Name = "xy_values";
-            this.xy_values.Size = new System.Drawing.Size(307, 329);
+            this.xy_values.Size = new System.Drawing.Size(264, 329);
             this.xy_values.TabIndex = 1;
             this.xy_values.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -71,7 +71,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 353);
+            this.ClientSize = new System.Drawing.Size(768, 353);
             this.Controls.Add(this.xy_values);
             this.Controls.Add(this.chart);
             this.Name = "ClientGUI";

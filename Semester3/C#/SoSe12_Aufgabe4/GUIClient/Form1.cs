@@ -5,7 +5,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace GUIClient
 {
-    public partial class ClientGUI : Form
+    public sealed partial class ClientGUI : Form
     {
         
         int seriesCount;

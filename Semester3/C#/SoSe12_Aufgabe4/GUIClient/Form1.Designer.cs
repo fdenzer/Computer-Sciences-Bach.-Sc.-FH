@@ -1,6 +1,6 @@
 ﻿namespace GUIClient
 {
-    partial class ClientGUI
+    public sealed partial class ClientGUI
     {
         /// <summary>
         /// Required designer variable.

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace GUIClient
 {
-    static class Program
+    static class Client
     {
         /// <summary>
         /// The main entry point for the application.

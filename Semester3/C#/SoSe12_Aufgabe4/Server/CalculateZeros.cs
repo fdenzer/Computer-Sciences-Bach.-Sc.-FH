@@ -11,7 +11,7 @@ namespace Server
 
         private double segmentWidth, epsilon;
         private List<Point> zeros;
-        private equation e;
+        private equation f;
 
         #endregion
 
@@ -44,7 +44,7 @@ namespace Server
             segmentWidth = 0.01d;
             epsilon = 1E-15;
             zeros = new List<Point>();
-            e = _e;
+            f = _e;
         }
 
         #endregion
@@ -64,7 +64,7 @@ namespace Server
             for (x = lowerLimit; x <= upperLimit; x = lowerLimit + (k++) * segmentWidth)
             {
 
-                y = e(x);
+                y = f(x);
 
                 if (Math.Sign(y) == 0)
                 {
@@ -72,7 +72,7 @@ namespace Server
                     zeros.Add(Util.newPoint(x, y));
 
                 }
-                else if (Math.Sign(y) == -Math.Sign(e(x + segmentWidth)))
+                else if (Math.Sign(y) == -Math.Sign(f(x + segmentWidth)))
                 {
                     // start of interval bisection
                     Bisect(x, x + segmentWidth, localEpsilon);
@@ -86,14 +86,14 @@ namespace Server
             double middle;
 
             // do the if-part in interval containing zero
-            if (Math.Sign(e(lowerLimit)) == -Math.Sign(e(upperLimit)))
+            if (Math.Sign(f(lowerLimit)) == -Math.Sign(f(upperLimit)))
             {
 
                 // checks exit condition: x-values diverge little, making the segment small enough
                 middle = (lowerLimit + upperLimit) / 2.0d;
                 if ((upperLimit - lowerLimit) <= localEpsilon)
                 {
-                    zeros.Add(Util.newPoint(middle, e(middle)));
+                    zeros.Add(Util.newPoint(middle, f(middle)));
 
                 }
                 else

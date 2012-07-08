@@ -53,7 +53,6 @@
             this.chart.Size = new System.Drawing.Size(474, 329);
             this.chart.TabIndex = 0;
             this.chart.Text = "chart1";
-            this.chart.Click += new System.EventHandler(this.chart1_Click);
             // 
             // xy_values
             // 
@@ -65,7 +64,6 @@
             this.xy_values.Name = "xy_values";
             this.xy_values.Size = new System.Drawing.Size(264, 329);
             this.xy_values.TabIndex = 1;
-            this.xy_values.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // ClientGUI
             // 
@@ -76,7 +74,6 @@
             this.Controls.Add(this.chart);
             this.Name = "ClientGUI";
             this.Text = "Client w/ GUI";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart)).EndInit();
             this.ResumeLayout(false);
 

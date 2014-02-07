@@ -20,4 +20,4 @@ Typical languages used are C, C#, PHP and Java.
 
 _in short_ / _gekürzt_
 
-Bitte nur studienrelevantes zum das Fach Informatik ablegen.
+Bitte nur Studienrelevantes zum Fach Informatik ablegen.
